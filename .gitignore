@@ -10,6 +10,22 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+#Asset Store & PLugins
+/[Aa]ssets/Plugins/Editor/ScriptInspector*
+/[Aa]ssets/BNG Framework/*
+!/[Aa]ssets/BNG Framework/Scripts/BNG Core.asmdef
+!/[Aa]ssets/BNG Framework/HandPoser/Scripts/BNG.HandPose.asmdef
+/[Aa]ssets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+/[Aa]ssets/PolygonHorrorMansion/*
+/[Aa]ssets/ExplosiveLLC/*
+/[Aa]ssets/TextMesh Pro/*
+/[Aa]ssets/CleanFlatIcon*
+/[Aa]ssets/FrostweepGames*
+
+#Private Keys & Webhooks
+/[Aa]ssets/BrennanHatton/Webhooks/*.txt
+/[Aa]ssets/BrennanHatton/Private Keys/*.txt
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -58,3 +74,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#Compression Files
+*.zip
+*.rar
