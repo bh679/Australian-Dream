@@ -1,0 +1,54 @@
+{
+    "name": "HoonControls",
+    "maps": [
+        {
+            "name": "Player Controls",
+            "id": "11ca7220-4e87-4f3b-8119-edba636fabf3",
+            "actions": [
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "a417e4ea-e7ae-4858-a2fb-811d9dd2312a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "f5c7d8c5-53e2-47ba-8a46-befbfe035f87",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "13c0f809-0584-43fa-b94e-98429ceecdbe",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1fe04f3-1d3f-460e-be69-12550a90f563",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
