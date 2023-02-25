@@ -10,3 +10,5 @@ Inspiration
 Asset Packs
  - https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214
  - https://syntystore.com/collections/frontpage/products/polygon-pumpkins-pack
+ - https://github.com/bh679/DoGPT/edit/master/.gitignore
+ 
