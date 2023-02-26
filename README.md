@@ -1,5 +1,12 @@
 # Australian Dream
 ### Hoon - The Game
+ 
+Project Setupo
+ - Clone Project
+ - Download & Import Asset Packs ([Brennans Unity Tools](https://github.com/bh679/Unity-Tools), [Synty Polygon City](https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214), [Pumpkin Pack](https://syntystore.com/collections/frontpage/products/polygon-pumpkins-pack), [Animation Pack](https://assetstore.unity.com/packages/3d/animations/rpg-character-mecanim-animation-pack-63772))
+ - Scenes/SampleScene
+
+
 
 Inspiration
  - https://www.youtube.com/watch?v=tsKb7xw9-Lk
@@ -11,5 +18,4 @@ Asset Packs
  - https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214
  - https://syntystore.com/collections/frontpage/products/polygon-pumpkins-pack
  - https://assetstore.unity.com/packages/3d/animations/rpg-character-mecanim-animation-pack-63772
- - [https://github.com/bh679/DoGPT/edit/master/.gitignore](https://github.com/bh679/Unity-Tools)
- 
+ - [Brennans Unity Tools](https://github.com/bh679/Unity-Tools)
