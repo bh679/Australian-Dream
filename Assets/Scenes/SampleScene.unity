@@ -836,6 +836,8 @@ MonoBehaviour:
   EmulatorActionSet: {fileID: -944628639613478452, guid: 4a48f957ca9b140af8963966fc670146, type: 3}
   Left: {fileID: -2694509862189261744, guid: 4a48f957ca9b140af8963966fc670146, type: 3}
   Right: {fileID: -2318275734825767381, guid: 4a48f957ca9b140af8963966fc670146, type: 3}
+  Jump: {fileID: 6066557852129556639, guid: 4a48f957ca9b140af8963966fc670146, type: 3}
+  Roll: {fileID: 8621789213274240788, guid: 4a48f957ca9b140af8963966fc670146, type: 3}
   animator: {fileID: 1113596117}
 --- !u!1 &1890672359
 GameObject:

@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class CharacterInput : MonoBehaviour
 {
 	public InputActionAsset EmulatorActionSet;
-	public InputActionReference Left, Right;
+	public InputActionReference Left, Right, Jump, Roll;
 	public Animator animator;
 	
     // Start is called before the first frame update
@@ -27,7 +27,12 @@ public class CharacterInput : MonoBehaviour
     // Update is called once per frame
     void Update()
 	{
-		if(Right.action.IsPressed() && !Left.action.IsPressed())
+		
+		if(Jump.action.IsPressed())
+		{
+			animator.SetTrigger("Jump");
+		}
+		else if(Right.action.IsPressed() && !Left.action.IsPressed())
 		{
 			animator.SetBool("Right", true);
 			animator.SetBool("Left", false);
@@ -41,6 +46,8 @@ public class CharacterInput : MonoBehaviour
 			animator.SetBool("Right", false);
 			animator.SetBool("Left", false);
 		}
+		
+		animator.SetBool("Roll",Roll.action.IsPressed());
 	}
     
 	void OnDisable() {
