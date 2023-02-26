@@ -16,5 +16,5 @@ Asset Packs
  
 Project Setupo
  - Clone Project
- - Add Asset Packs ([Brennans Unity Tools](https://github.com/bh679/Unity-Tools), [Synty Polygon City](https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214), [Pumpkin Pack](https://syntystore.com/collections/frontpage/products/polygon-pumpkins-pack), [Animation Pack](https://assetstore.unity.com/packages/3d/animations/rpg-character-mecanim-animation-pack-63772)
+ - Download & Import Asset Packs ([Brennans Unity Tools](https://github.com/bh679/Unity-Tools), [Synty Polygon City](https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214), [Pumpkin Pack](https://syntystore.com/collections/frontpage/products/polygon-pumpkins-pack), [Animation Pack](https://assetstore.unity.com/packages/3d/animations/rpg-character-mecanim-animation-pack-63772))
  - Scenes/SampleScene
