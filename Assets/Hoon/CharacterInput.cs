@@ -16,6 +16,7 @@ public class CharacterInput : MonoBehaviour
 	Vector3 startDirection;
 	public Transform camera;
 	Vector3 cameraPos, cameraAng;
+	public ParticleSystem boostParticles;
 	
 	void Start()
 	{
@@ -47,6 +48,25 @@ public class CharacterInput : MonoBehaviour
 	{
 		yield return new WaitForSeconds(time);
 		StartRunning();
+		
+	}
+    
+	public void SpeedBoost()
+	{
+		boostParticles.gameObject.SetActive(true);
+		boostParticles.Play();
+		boostParticles.loop = true;
+		
+		animator.speed = 2f;
+		StartCoroutine(returnSpeedAfterDelay(5f));
+	}
+	
+	IEnumerator returnSpeedAfterDelay(float time)
+	{
+		yield return new WaitForSeconds(time);
+		boostParticles.loop = false;
+		
+		animator.speed = 1f;
 		
 	}
 	
