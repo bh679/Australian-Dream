@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1580467705430770224}
   - component: {fileID: 1580467705430770226}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Mjusic Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

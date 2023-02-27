@@ -51,6 +51,7 @@ public class CharacterInput : MonoBehaviour
 		
 	}
     
+	public float speedBoost = 2f, boostTime = 4f;
 	public void SpeedBoost()
 	{
 		boostParticles.gameObject.SetActive(true);
@@ -58,7 +59,7 @@ public class CharacterInput : MonoBehaviour
 		boostParticles.loop = true;
 		
 		animator.speed = 2f;
-		StartCoroutine(returnSpeedAfterDelay(5f));
+		StartCoroutine(returnSpeedAfterDelay(boostTime));
 	}
 	
 	IEnumerator returnSpeedAfterDelay(float time)
