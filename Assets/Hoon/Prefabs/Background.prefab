@@ -152,6 +152,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 3396160, guid: f7538ab1dc37c8e49b7d76fd462c53eb, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: fecf1b0900c3c2e4ab67fdb4c302b31f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7538ab1dc37c8e49b7d76fd462c53eb, type: 3}
 --- !u!4 &988650274 stripped
@@ -214,6 +218,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 3396160, guid: f7538ab1dc37c8e49b7d76fd462c53eb, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: e6098de127c8e01479c503fc295feb2c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7538ab1dc37c8e49b7d76fd462c53eb, type: 3}
 --- !u!4 &1930419888 stripped

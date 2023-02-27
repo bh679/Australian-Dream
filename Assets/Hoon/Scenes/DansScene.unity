@@ -1111,6 +1111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Billboard_01
       objectReference: {fileID: 0}
+    - target: {fileID: 176082, guid: cba063d2715f7a345b1c64609f0e864e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 437978, guid: cba063d2715f7a345b1c64609f0e864e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1914,6 +1918,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayOnEnable: 0
+  onStart: 0
+  onlyIfNotPlayer: 0
   clips:
   - {fileID: 8300000, guid: 626a52ac838f24d019f65a6a90d4a70a, type: 3}
   - {fileID: 8300000, guid: 1d68eac89f26947059756bf131666601, type: 3}
@@ -3056,6 +3062,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3360450, guid: 982d949264f5fd34e95b58f116932053, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 3a65700e226cd8845893bf8b4c321649, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982d949264f5fd34e95b58f116932053, type: 3}
 --- !u!1001 &1107246869
@@ -3275,6 +3285,7 @@ MonoBehaviour:
   defaultCollider: {fileID: 1113596120}
   rollCollider: {fileID: 1113596124}
   jumpCollider: {fileID: 0}
+  startDelay: 0
 --- !u!4 &1113596119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 441500, guid: 498a13929c1393e44be1126bcadc448b, type: 3}
@@ -4003,8 +4014,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 422754, guid: 430345e20ddf842489bc80fba96a0edd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.476726
+      objectReference: {fileID: 0}
+    - target: {fileID: 422754, guid: 430345e20ddf842489bc80fba96a0edd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5457
+      objectReference: {fileID: 0}
+    - target: {fileID: 422754, guid: 430345e20ddf842489bc80fba96a0edd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.04
+      value: 11.97
       objectReference: {fileID: 0}
     - target: {fileID: 422754, guid: 430345e20ddf842489bc80fba96a0edd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4125,7 +4144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425816292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24978828, y: 2.5542586, z: 64.5}
+  m_LocalPosition: {x: 0.24978828, y: 2.5542586, z: 80.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
