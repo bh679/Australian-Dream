@@ -8,6 +8,10 @@ public class CharacterInput : MonoBehaviour
 	public InputActionAsset EmulatorActionSet;
 	public InputActionReference Left, Right, Jump, Roll;
 	public Animator animator;
+	public float rollSpeed = 1f;
+	public float rollstartTime = 1f, rollStopTime = 1f;
+	bool isRolling = false;
+	public Collider defaultCollider, rollCollider, jumpCollider;
 	
     // Start is called before the first frame update
 	void OnEnable()
@@ -48,6 +52,45 @@ public class CharacterInput : MonoBehaviour
 		}
 		
 		animator.SetBool("Roll",Roll.action.IsPressed());
+		
+		if(isRolling)
+		{
+			this.transform.position += this.transform.forward*rollSpeed*Time.deltaTime;
+		
+			if(!changingRollState && !Roll.action.IsPressed())
+			{
+				StartCoroutine(stopRollAfterTime(rollStopTime));
+			}
+			
+		}
+		else
+		{
+			if(Roll.action.IsPressed())
+			{
+				this.transform.position += this.transform.forward*rollSpeed*Time.deltaTime;
+		
+				isRolling = true;
+				SetRollCollider(true);
+			}
+			
+		}
+	}
+	
+	void SetRollCollider(bool isOn)
+	{
+		defaultCollider.enabled = !isOn;
+		rollCollider.enabled = isOn;
+	}
+	
+	bool changingRollState = false;
+	
+	IEnumerator stopRollAfterTime(float time)
+	{
+		changingRollState = true;
+		yield return new WaitForSeconds(time);
+		SetRollCollider(false);
+		isRolling = false;
+		changingRollState = false;
 	}
     
 	void OnDisable() {
