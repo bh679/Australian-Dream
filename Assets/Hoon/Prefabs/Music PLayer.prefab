@@ -46,7 +46,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.279
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   PlayOnEnable: 0
   onStart: 1
   onlyIfNotPlayer: 1
-  playOnShot: 1
+  playOnShot: 0
   clips:
   - {fileID: 8300000, guid: 87d1c9abef95a43e4bd978f95b4fb644, type: 3}
   - {fileID: 8300000, guid: d149c7f83a1ed4b2589be79b517cafee, type: 3}
@@ -212,6 +212,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1580467705430770223}
+  - {fileID: 1996137802117176149}
+  - {fileID: 8900726030521145182}
+  - {fileID: 7620515420084648319}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -227,3 +230,316 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a23024c42b3744163891bd3f3731b64f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2584394262490994637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8900726030521145182}
+  - component: {fileID: 603720093359656332}
+  m_Layer: 0
+  m_Name: Pumpkinhead Win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8900726030521145182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2584394262490994637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1580467706747101387}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &603720093359656332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2584394262490994637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8214cd2f1da34fc48a7997d8b8884b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayOnEnable: 0
+  onStart: 0
+  onlyIfNotPlayer: 1
+  playOnShot: 0
+  clips:
+  - {fileID: 8300000, guid: 8d8172d07ee804f4c8f65d1ed84d11f4, type: 3}
+  - {fileID: 8300000, guid: 0ea15eed3e8084f05842e398d2d627c3, type: 3}
+  - {fileID: 8300000, guid: 2c5e6a3c6cebc4fcf9aa1f67fae363dc, type: 3}
+  - {fileID: 8300000, guid: b1c73d499ae8f4e23a5578d50cd54122, type: 3}
+  - {fileID: 8300000, guid: 45d2c4bb26d544fabbc4160c67144936, type: 3}
+  - {fileID: 8300000, guid: 9721f88317e104020a7434caff9a5155, type: 3}
+  - {fileID: 8300000, guid: c347ed1e999a7441da8d50551b57717c, type: 3}
+  - {fileID: 8300000, guid: ca22c250072874bad9bb98051130d7d1, type: 3}
+  - {fileID: 8300000, guid: 3045e4a8aec324e04a1c25e34cc4991d, type: 3}
+  - {fileID: 8300000, guid: 3268efe100d524f0cb8bac962b1331bf, type: 3}
+  - {fileID: 8300000, guid: cf79fe1e7bd694f77b35c67dcb1973b0, type: 3}
+  - {fileID: 8300000, guid: 2f8a6a883c8234d3697fdc841f6bbe31, type: 3}
+  - {fileID: 8300000, guid: 03eaaa1af753742b7a4768ceef60ed1f, type: 3}
+  - {fileID: 8300000, guid: f3dbe403542e042d89e053af70867b6a, type: 3}
+  - {fileID: 8300000, guid: 7643339a58fbb416e94d903dd81ee7a0, type: 3}
+  - {fileID: 8300000, guid: e361055e54475490390c15228283b186, type: 3}
+  - {fileID: 8300000, guid: 9ad53e9b525444b6ba855daba5119521, type: 3}
+  - {fileID: 8300000, guid: 1a2bbf85fe20143a8a4d5f0d97dd7ada, type: 3}
+  - {fileID: 8300000, guid: 8487531e5d85d49c99bcf8a0454d5a33, type: 3}
+  - {fileID: 8300000, guid: 047a56ee7c22c4c6a9a9fac46c470432, type: 3}
+  - {fileID: 8300000, guid: db7f133e6f2964f7c9ff040c5de25b75, type: 3}
+  - {fileID: 8300000, guid: 65dbaedff472b45249c1e4941707b5f8, type: 3}
+  source: {fileID: 7046182652608731361}
+--- !u!1 &6773042672072354147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996137802117176149}
+  - component: {fileID: 7046182652608731361}
+  - component: {fileID: 5319024340829545704}
+  m_Layer: 0
+  m_Name: Pumpkin head Generic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996137802117176149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773042672072354147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1580467706747101387}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &7046182652608731361
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773042672072354147}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &5319024340829545704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773042672072354147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8214cd2f1da34fc48a7997d8b8884b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayOnEnable: 0
+  onStart: 1
+  onlyIfNotPlayer: 1
+  playOnShot: 0
+  clips:
+  - {fileID: 8300000, guid: 8d8172d07ee804f4c8f65d1ed84d11f4, type: 3}
+  - {fileID: 8300000, guid: 0ea15eed3e8084f05842e398d2d627c3, type: 3}
+  - {fileID: 8300000, guid: 2c5e6a3c6cebc4fcf9aa1f67fae363dc, type: 3}
+  - {fileID: 8300000, guid: b1c73d499ae8f4e23a5578d50cd54122, type: 3}
+  - {fileID: 8300000, guid: 45d2c4bb26d544fabbc4160c67144936, type: 3}
+  - {fileID: 8300000, guid: 9721f88317e104020a7434caff9a5155, type: 3}
+  - {fileID: 8300000, guid: c347ed1e999a7441da8d50551b57717c, type: 3}
+  - {fileID: 8300000, guid: ca22c250072874bad9bb98051130d7d1, type: 3}
+  - {fileID: 8300000, guid: 3045e4a8aec324e04a1c25e34cc4991d, type: 3}
+  - {fileID: 8300000, guid: 3268efe100d524f0cb8bac962b1331bf, type: 3}
+  - {fileID: 8300000, guid: cf79fe1e7bd694f77b35c67dcb1973b0, type: 3}
+  - {fileID: 8300000, guid: 2f8a6a883c8234d3697fdc841f6bbe31, type: 3}
+  - {fileID: 8300000, guid: 03eaaa1af753742b7a4768ceef60ed1f, type: 3}
+  - {fileID: 8300000, guid: f3dbe403542e042d89e053af70867b6a, type: 3}
+  - {fileID: 8300000, guid: 7643339a58fbb416e94d903dd81ee7a0, type: 3}
+  - {fileID: 8300000, guid: e361055e54475490390c15228283b186, type: 3}
+  - {fileID: 8300000, guid: 9ad53e9b525444b6ba855daba5119521, type: 3}
+  - {fileID: 8300000, guid: 1a2bbf85fe20143a8a4d5f0d97dd7ada, type: 3}
+  - {fileID: 8300000, guid: 8487531e5d85d49c99bcf8a0454d5a33, type: 3}
+  - {fileID: 8300000, guid: 047a56ee7c22c4c6a9a9fac46c470432, type: 3}
+  - {fileID: 8300000, guid: db7f133e6f2964f7c9ff040c5de25b75, type: 3}
+  - {fileID: 8300000, guid: 65dbaedff472b45249c1e4941707b5f8, type: 3}
+  source: {fileID: 7046182652608731361}
+--- !u!1 &7685451649844658082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7620515420084648319}
+  - component: {fileID: 7139790134625189776}
+  m_Layer: 0
+  m_Name: Pumpkinhead Lose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7620515420084648319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7685451649844658082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1580467706747101387}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7139790134625189776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7685451649844658082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8214cd2f1da34fc48a7997d8b8884b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayOnEnable: 0
+  onStart: 0
+  onlyIfNotPlayer: 1
+  playOnShot: 0
+  clips:
+  - {fileID: 8300000, guid: 8d8172d07ee804f4c8f65d1ed84d11f4, type: 3}
+  - {fileID: 8300000, guid: 0ea15eed3e8084f05842e398d2d627c3, type: 3}
+  - {fileID: 8300000, guid: 2c5e6a3c6cebc4fcf9aa1f67fae363dc, type: 3}
+  - {fileID: 8300000, guid: b1c73d499ae8f4e23a5578d50cd54122, type: 3}
+  - {fileID: 8300000, guid: 45d2c4bb26d544fabbc4160c67144936, type: 3}
+  - {fileID: 8300000, guid: 9721f88317e104020a7434caff9a5155, type: 3}
+  - {fileID: 8300000, guid: c347ed1e999a7441da8d50551b57717c, type: 3}
+  - {fileID: 8300000, guid: ca22c250072874bad9bb98051130d7d1, type: 3}
+  - {fileID: 8300000, guid: 3045e4a8aec324e04a1c25e34cc4991d, type: 3}
+  - {fileID: 8300000, guid: 3268efe100d524f0cb8bac962b1331bf, type: 3}
+  - {fileID: 8300000, guid: cf79fe1e7bd694f77b35c67dcb1973b0, type: 3}
+  - {fileID: 8300000, guid: 2f8a6a883c8234d3697fdc841f6bbe31, type: 3}
+  - {fileID: 8300000, guid: 03eaaa1af753742b7a4768ceef60ed1f, type: 3}
+  - {fileID: 8300000, guid: f3dbe403542e042d89e053af70867b6a, type: 3}
+  - {fileID: 8300000, guid: 7643339a58fbb416e94d903dd81ee7a0, type: 3}
+  - {fileID: 8300000, guid: e361055e54475490390c15228283b186, type: 3}
+  - {fileID: 8300000, guid: 9ad53e9b525444b6ba855daba5119521, type: 3}
+  - {fileID: 8300000, guid: 1a2bbf85fe20143a8a4d5f0d97dd7ada, type: 3}
+  - {fileID: 8300000, guid: 8487531e5d85d49c99bcf8a0454d5a33, type: 3}
+  - {fileID: 8300000, guid: 047a56ee7c22c4c6a9a9fac46c470432, type: 3}
+  - {fileID: 8300000, guid: db7f133e6f2964f7c9ff040c5de25b75, type: 3}
+  - {fileID: 8300000, guid: 65dbaedff472b45249c1e4941707b5f8, type: 3}
+  source: {fileID: 7046182652608731361}
