@@ -3246,7 +3246,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64222710617219654, guid: f539f0390d17a9f4a922b722e47998fe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f539f0390d17a9f4a922b722e47998fe, type: 3}
 --- !u!114 &1025390482 stripped
 MonoBehaviour:
@@ -3836,6 +3837,7 @@ MonoBehaviour:
   defaultCollider: {fileID: 1113596120}
   rollCollider: {fileID: 1113596124}
   jumpCollider: {fileID: 0}
+  startDelay: 4
 --- !u!4 &1113596119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 441500, guid: 498a13929c1393e44be1126bcadc448b, type: 3}
@@ -6133,7 +6135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1724046378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80387712ccb581d4eb29807030a47fd6, type: 3}
+  m_Script: {fileID: 11500000, guid: a23024c42b3744163891bd3f3731b64f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1733207538 stripped
