@@ -1849,16 +1849,10 @@ MonoBehaviour:
   onStart: 1
   onlyIfNotPlayer: 1
   clips:
-  - {fileID: 8300000, guid: 626a52ac838f24d019f65a6a90d4a70a, type: 3}
-  - {fileID: 8300000, guid: 1d68eac89f26947059756bf131666601, type: 3}
-  - {fileID: 8300000, guid: b11af305b9c23435daec750c6c5519f6, type: 3}
   - {fileID: 8300000, guid: 87d1c9abef95a43e4bd978f95b4fb644, type: 3}
   - {fileID: 8300000, guid: d149c7f83a1ed4b2589be79b517cafee, type: 3}
-  - {fileID: 8300000, guid: 865097afd91fd4f02b5e7ea9f09b7d84, type: 3}
-  - {fileID: 8300000, guid: feaa57f73b2404671963e30c05df93f5, type: 3}
   - {fileID: 8300000, guid: 9a3ba132cd41543b79a9a17b9e8f9a7c, type: 3}
   - {fileID: 8300000, guid: 9f716202e9a9145f6b606d657748ac6f, type: 3}
-  - {fileID: 8300000, guid: 14d67f07fe046478c9d5a04c2971cb5b, type: 3}
   - {fileID: 8300000, guid: d23b93dd0ac7145549b8a3bae0c9e949, type: 3}
   source: {fileID: 676101841}
 --- !u!82 &676101841

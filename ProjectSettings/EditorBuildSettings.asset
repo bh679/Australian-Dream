@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Hoon/Scenes/Australian Dream.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Hoon/Scenes/TestBuild.unity
     guid: f7740a67c445249e3a8c2485f77acc28
   m_configObjects: {}
