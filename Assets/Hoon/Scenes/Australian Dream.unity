@@ -2268,9 +2268,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayOnEnable: 0
-  PlayOnStart: 1
-  StopAllOnPlay: 0
-  OnlyIfNotPLaying: 1
+  onStart: 1
+  onlyIfNotPlayer: 1
   clips:
   - {fileID: 8300000, guid: 626a52ac838f24d019f65a6a90d4a70a, type: 3}
   - {fileID: 8300000, guid: 1d68eac89f26947059756bf131666601, type: 3}
