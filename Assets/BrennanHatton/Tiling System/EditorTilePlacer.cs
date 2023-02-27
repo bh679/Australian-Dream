@@ -18,8 +18,10 @@ public class EditorTilePlacer : MonoBehaviour
 		placer.Setup();
 		PlaceTiles(placer.number);
 		
+#if UNITY_EDITOR
 		// We need to tell Unity we're changing the component object too.
 		Undo.RecordObject(placer, "Creating Tiles");
+#endif
 	}
     
 	public void PlaceTiles(float numberOfTiles)
@@ -30,6 +32,7 @@ public class EditorTilePlacer : MonoBehaviour
 	
 	public void PlaceNexTile()
 	{
+#if UNITY_EDITOR
 		Selection.activeObject = PrefabUtility.InstantiatePrefab(placer.tilePrefab as Object, placer.origin);
 		Tile tile = Selection.activeObject as Tile;
 		//Debug.Log(go);
@@ -42,5 +45,6 @@ public class EditorTilePlacer : MonoBehaviour
 		
 		placer.next.transform.position += placer.next.transform.forward*tile.length;
 		Selection.activeObject = this;
+#endif
     }
 }
