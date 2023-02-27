@@ -57,11 +57,19 @@ public class CharacterInput : MonoBehaviour
 			return;
 		started = true;
 		
+		Debug.Log(startDirection);
 		animator.SetBool("Started", true);
 		this.transform.eulerAngles= startDirection;
 		camera.SetParent(this.transform);
 		camera.transform.localPosition = cameraPos;
 		camera.transform.localEulerAngles = cameraAng;
+		StartCoroutine(directionAfterDelay(1f));
+	}
+	
+	IEnumerator directionAfterDelay(float time)
+	{
+		yield return new WaitForSeconds(time);
+		this.transform.eulerAngles = startDirection;
 	}
 
     // Update is called once per frame
