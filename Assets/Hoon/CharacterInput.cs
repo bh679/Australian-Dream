@@ -12,6 +12,13 @@ public class CharacterInput : MonoBehaviour
 	public float rollstartTime = 1f, rollStopTime = 1f;
 	bool isRolling = false;
 	public Collider defaultCollider, rollCollider, jumpCollider;
+	public float startDelay;
+	Vector3 startDirection;
+	
+	void Start()
+	{
+		startDirection = this.transform.eulerAngles;
+	}
 	
     // Start is called before the first frame update
 	void OnEnable()
@@ -26,7 +33,28 @@ public class CharacterInput : MonoBehaviour
 			    }
 		    }
 	    }
+	    
+	    StartCoroutine(startAfterDelay(startDelay));
+	    
     }
+	
+	IEnumerator startAfterDelay(float time)
+	{
+		yield return new WaitForSeconds(time);
+		StartRunning();
+		
+	}
+	
+	bool started = false;
+	void StartRunning()
+	{
+		if(started)
+			return;
+		started = true;
+		
+		animator.SetBool("Started", true);
+		this.transform.eulerAngles= startDirection;
+	}
 
     // Update is called once per frame
     void Update()
@@ -35,16 +63,19 @@ public class CharacterInput : MonoBehaviour
 		if(Jump.action.IsPressed())
 		{
 			animator.SetTrigger("Jump");
+			StartRunning();
 		}
 		else if(Right.action.IsPressed() && !Left.action.IsPressed())
 		{
 			animator.SetBool("Right", true);
 			animator.SetBool("Left", false);
+			StartRunning();
 		}
 		else if(!Right.action.IsPressed() && Left.action.IsPressed())
 		{
 			animator.SetBool("Right", false);
 			animator.SetBool("Left", true);
+			StartRunning();
 		}else
 		{
 			animator.SetBool("Right", false);
@@ -71,6 +102,7 @@ public class CharacterInput : MonoBehaviour
 		
 				isRolling = true;
 				SetRollCollider(true);
+				StartRunning();
 			}
 			
 		}
