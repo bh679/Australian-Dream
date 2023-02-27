@@ -1138,6 +1138,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 791f45c104c9e4066ba02196321e2b89, type: 3}
+--- !u!82 &676101841 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1580467705430770225, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
+  m_PrefabInstance: {fileID: 1580467705031556320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3845,6 +3850,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 838399319796211982, guid: 791f45c104c9e4066ba02196321e2b89, type: 3}
   m_PrefabInstance: {fileID: 1869849777}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1925643038 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3136627969241958752, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+  m_PrefabInstance: {fileID: 3136627967342293630}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1931301339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 151086, guid: ac89877d99edb1347a2f655053ce7b64, type: 3}
@@ -4470,6 +4486,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
+      propertyPath: playOnShot
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1580467706747101386, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
       propertyPath: m_Name
       value: Music PLayer
@@ -4671,6 +4691,30 @@ PrefabInstance:
     - target: {fileID: 3136627969209887897, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
       propertyPath: m_Name
       value: Game UI Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3136627969241958750, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1925643038}
+    - target: {fileID: 3136627969241958750, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 676101841}
+    - target: {fileID: 3136627969241958752, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3136627969241958752, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3136627969241958752, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3136627969241958752, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
