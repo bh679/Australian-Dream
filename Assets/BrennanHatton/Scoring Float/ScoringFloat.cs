@@ -11,25 +11,13 @@ namespace BrennanHatton.Scoring
 	{
 		[SerializeField] 
 		protected float value;
-		public bool isStatic;
-		protected static float staticValue;
 		
 		
 		public virtual void UpdateScore(float scoreUpdate)
 		{
-			if(isStatic)
-			{
-				staticValue += scoreUpdate;
-				value = staticValue;
-			}
-			else
-				value += scoreUpdate;
+			value += scoreUpdate;
 		}
 		
-		public static virtual void UpdateScore(float scoreUpdate)
-		{
-			staticValue += scoreUpdate;
-		}
 		
 		public virtual void UpdateScoreDeltaTime(float scoreUpdate)
 		{
@@ -38,22 +26,13 @@ namespace BrennanHatton.Scoring
 		
 		public virtual void SetScore(float newScore)
 		{
-			if(isStatic)
-			{
-				staticValue = newScore;
-				value = staticValue;
-			}
-			else
+			
 				value = newScore;
 		}
 		
 		public virtual float GetScore()
 		{
-			if(isStatic)
-			{
-				return staticValue;
-			}
-			else
+			
 				return value;
 		}
 	}

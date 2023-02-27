@@ -9,9 +9,12 @@ namespace BrennanHatton.Scoring
 	{
 		public ScoringFloat scoreFloat;
 		
-		public float addAmount;
+		public float addAmount = 1f;
 		
-		public bool updateStatic;
+		void Reset()
+		{
+			scoreFloat = GameObject.FindFirstObjectByType<ScoringFloat>();
+		}
 		
 		[Tooltip("Changes score value by 'addAmount' every second")]
 		public bool OnUpdate;
@@ -25,9 +28,6 @@ namespace BrennanHatton.Scoring
 	    
 		public void AddToScore(float value)
 		{
-			if(updateStatic)
-				ScoringFloat.UpdateScore(value);
-				
 			scoreFloat.UpdateScore(value);
 		}
 	}
