@@ -76,6 +76,20 @@ public class CharacterInput : MonoBehaviour
 		}
 	}
 	
+	public void TurnAroundAfter(float time)
+	{
+		StartCoroutine(turnAroundAfter(time));
+	}
+	
+	IEnumerator turnAroundAfter(float time)
+	{
+		for(int i = 0; i < 180; i++)
+		{
+			this.transform.RotateAround(this.transform.position,Vector3.up,1);
+			yield return new WaitForSeconds(time/180f);
+		}
+	}
+	
 	void SetRollCollider(bool isOn)
 	{
 		defaultCollider.enabled = !isOn;
