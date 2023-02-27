@@ -14,10 +14,15 @@ public class CharacterInput : MonoBehaviour
 	public Collider defaultCollider, rollCollider, jumpCollider;
 	public float startDelay;
 	Vector3 startDirection;
+	public Transform camera;
+	Vector3 cameraPos, cameraAng;
 	
 	void Start()
 	{
 		startDirection = this.transform.eulerAngles;
+		cameraPos = camera.transform.localPosition;
+		cameraAng = camera.transform.localEulerAngles;
+		camera.SetParent(transform.parent);
 	}
 	
     // Start is called before the first frame update
@@ -34,7 +39,7 @@ public class CharacterInput : MonoBehaviour
 		    }
 	    }
 	    
-	    StartCoroutine(startAfterDelay(startDelay));
+	    //StartCoroutine(startAfterDelay(startDelay));
 	    
     }
 	
@@ -54,6 +59,9 @@ public class CharacterInput : MonoBehaviour
 		
 		animator.SetBool("Started", true);
 		this.transform.eulerAngles= startDirection;
+		camera.SetParent(this.transform);
+		camera.transform.localPosition = cameraPos;
+		camera.transform.localEulerAngles = cameraAng;
 	}
 
     // Update is called once per frame
