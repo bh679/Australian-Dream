@@ -40,8 +40,6 @@ public class CharacterInput : MonoBehaviour
 		    }
 	    }
 	    
-	    //StartCoroutine(startAfterDelay(startDelay));
-	    
     }
 	
 	IEnumerator startAfterDelay(float time)
