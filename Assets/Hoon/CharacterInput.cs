@@ -57,14 +57,25 @@ public class CharacterInput : MonoBehaviour
 		boostParticles.loop = true;
 		
 		animator.speed = 2f;
-		StartCoroutine(returnSpeedAfterDelay(boostTime));
+		if(_boostTime <= 0)
+		{
+			StartCoroutine(returnSpeedAfterDelay());
+		}
+		_boostTime = boostTime;
 	}
 	
-	IEnumerator returnSpeedAfterDelay(float time)
+	float _boostTime = 0;
+	
+	IEnumerator returnSpeedAfterDelay()
 	{
-		yield return new WaitForSeconds(time);
+		_boostTime = boostTime;
+		while(_boostTime > 0)
+		{
+			yield return new WaitForSeconds(0.1f);
+			_boostTime -= 0.1f;
+		}
 		boostParticles.loop = false;
-		
+		_boostTime = 0;
 		animator.speed = 1f;
 		
 	}
@@ -72,6 +83,7 @@ public class CharacterInput : MonoBehaviour
 	bool started = false;
 	void StartRunning()
 	{
+		
 		if(started)
 			return;
 		started = true;
