@@ -16,6 +16,7 @@ public class CharacterInput : MonoBehaviour
 	Vector3 startDirection;
 	public Transform camera;
 	Vector3 cameraPos, cameraAng;
+	public ParticleSystem boostParticles;
 	
 	void Start()
 	{
@@ -39,8 +40,6 @@ public class CharacterInput : MonoBehaviour
 		    }
 	    }
 	    
-	    //StartCoroutine(startAfterDelay(startDelay));
-	    
     }
 	
 	IEnumerator startAfterDelay(float time)
@@ -49,19 +48,59 @@ public class CharacterInput : MonoBehaviour
 		StartRunning();
 		
 	}
+    
+	public float speedBoost = 2f, boostTime = 4f;
+	public void SpeedBoost()
+	{
+		boostParticles.gameObject.SetActive(true);
+		boostParticles.Play();
+		boostParticles.loop = true;
+		
+		animator.speed = 2f;
+		if(_boostTime <= 0)
+		{
+			StartCoroutine(returnSpeedAfterDelay());
+		}
+		_boostTime = boostTime;
+	}
+	
+	float _boostTime = 0;
+	
+	IEnumerator returnSpeedAfterDelay()
+	{
+		_boostTime = boostTime;
+		while(_boostTime > 0)
+		{
+			yield return new WaitForSeconds(0.1f);
+			_boostTime -= 0.1f;
+		}
+		boostParticles.loop = false;
+		_boostTime = 0;
+		animator.speed = 1f;
+		
+	}
 	
 	bool started = false;
 	void StartRunning()
 	{
+		
 		if(started)
 			return;
 		started = true;
 		
+		Debug.Log(startDirection);
 		animator.SetBool("Started", true);
 		this.transform.eulerAngles= startDirection;
 		camera.SetParent(this.transform);
 		camera.transform.localPosition = cameraPos;
 		camera.transform.localEulerAngles = cameraAng;
+		StartCoroutine(directionAfterDelay(1f));
+	}
+	
+	IEnumerator directionAfterDelay(float time)
+	{
+		yield return new WaitForSeconds(time);
+		this.transform.eulerAngles = startDirection;
 	}
 
     // Update is called once per frame
