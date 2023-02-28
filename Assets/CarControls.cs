@@ -38,6 +38,11 @@ public class CarControls : MonoBehaviour
 		StartCoroutine(reduceBoostAfter(speedBoostTime, boost));
 	}
 
+	public void Crashed()
+	{
+		speed = 0;
+		Speed = 0;
+	}
 
 	IEnumerator reduceBoostAfter(float time, float speedBoost)
 	{
