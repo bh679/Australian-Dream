@@ -31,6 +31,7 @@ public class CarControls : MonoBehaviour
 		Speed += boost;
 		speed += boost/2f;
 		
+		flames.gameObject.SetActive(true);
 		flames.loop = true;
 		flames.Play();
 		
