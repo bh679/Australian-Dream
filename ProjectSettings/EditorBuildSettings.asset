@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Hoon/Scenes/DEv/TestBuild.unity
     guid: f7740a67c445249e3a8c2485f77acc28
+  - enabled: 1
+    path: Assets/Hoon/Scenes/Australian Dream Level 2.unity
+    guid: 8c8b5c70296684848b31a7ad5c3a53a0
   m_configObjects: {}
