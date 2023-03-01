@@ -30,7 +30,7 @@
 /[Aa]ssets/Dance_MoCap_Collection/*
 
 #Brennan Specific
-/[Aa]ssets/Webhooks/*.txt
+/[Aa]ssets/BrennanHatton/Webhooks/*.txt
 
 #Hoon Specific
 /[Aa]ssets/Hoon/Sounds/Australian Dream Album/*
