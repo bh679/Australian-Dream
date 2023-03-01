@@ -12,7 +12,7 @@ namespace BrennanHatton.Discord
 		
 		public void SendFloatMessage(string message)
 		{
-			DiscordLogManager.Instance.SendMessage(preMessage + +message+ monoFloat.GetFloat().ToString() + postMessage);
+			DiscordLogManager.Instance.SendMessage(preMessage + message+ monoFloat.GetFloat().ToString() + postMessage);
 		}
     }
 }

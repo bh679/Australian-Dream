@@ -11883,6 +11883,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 113512738}
+    - target: {fileID: 3136627967342293633, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
+      propertyPath: monoFloat
+      value: 
+      objectReference: {fileID: 113512738}
     - target: {fileID: 3136627969209887893, guid: a70911b24637248f5be302cc3a1446bb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -12214,6 +12218,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 756b02fe2567a497d8361808616b8828, type: 3}
+--- !u!114 &5086852412050046295 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2811041035688041997, guid: 756b02fe2567a497d8361808616b8828, type: 3}
+  m_PrefabInstance: {fileID: 5086852412050046294}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a311dc3882fbf4f8d7783b5a04e876, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5086852412050046296 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5086852412522426942, guid: 756b02fe2567a497d8361808616b8828, type: 3}
@@ -12238,6 +12253,10 @@ PrefabInstance:
       objectReference: {fileID: 676101841}
     - target: {fileID: 1074847424, guid: 7d9bc6b5c97cc44d5bb2110127755378, type: 3}
       propertyPath: score
+      value: 
+      objectReference: {fileID: 113512738}
+    - target: {fileID: 1074847424, guid: 7d9bc6b5c97cc44d5bb2110127755378, type: 3}
+      propertyPath: monoFloat
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1248493862, guid: 7d9bc6b5c97cc44d5bb2110127755378, type: 3}
@@ -12809,6 +12828,18 @@ PrefabInstance:
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
       objectReference: {fileID: 977122207}
+    - target: {fileID: 8078671089239736487, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 5086852412050046295}
+    - target: {fileID: 8078671089239736487, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: SendWebhook
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078671089239736487, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: BrennanHatton.Discord.DiscordLogManager, DiscordWebhooks
+      objectReference: {fileID: 0}
     - target: {fileID: 8078671089239736487, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
