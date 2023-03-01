@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "8feb927134e98a618bde9f42c49bda8dd5773a2a"
+      "hash": "a102b985bd0b20f88b7af64d3eba955dbf500723"
     },
     "com.brennanhatton.unitytools": {
       "version": "https://github.com/bh679/Unity-Tools.git",
@@ -15,7 +15,7 @@
         "com.unity.textmeshpro": "3.0.6",
         "com.unity.inputsystem": "1.4.4"
       },
-      "hash": "9aca0a847758b7f4596cc528a9d75f66c9ebca4a"
+      "hash": "4c9d19a15abf0583b4542fdcbc791ac3906646a0"
     },
     "com.unity.collab-proxy": {
       "version": "2.0.0",
