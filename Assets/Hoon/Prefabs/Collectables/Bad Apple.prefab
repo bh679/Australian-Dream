@@ -153,8 +153,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6300839175264941749}
-        m_TargetAssemblyTypeName: BrennanHatton.Scoring.UpdateScoreFloat, Assembly-CSharp
-        m_MethodName: AddToScore
+        m_TargetAssemblyTypeName: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat,
+          BrennanHattonUnityTools
+        m_MethodName: AddToFloat
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

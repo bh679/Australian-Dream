@@ -162,6 +162,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5086852412522426943}
     m_Modifications:
+    - target: {fileID: 266349110248214177, guid: 7d7d3088f76ea45a8856f0aa836f7cd2, type: 3}
+      propertyPath: monoFloat
+      value: 
+      objectReference: {fileID: 113512738}
     - target: {fileID: 1993861895499064185, guid: 7d7d3088f76ea45a8856f0aa836f7cd2, type: 3}
       propertyPath: m_RootOrder
       value: 1

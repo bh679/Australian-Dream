@@ -1,0 +1,17 @@
+{
+    "name": "DiscordUnityTools",
+    "rootNamespace": "",
+    "references": [
+        "GUID:acb669fa97e47364c9ed0648364ae2fb",
+        "GUID:8b9008352bdfd5349b60a5b78888bae5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
