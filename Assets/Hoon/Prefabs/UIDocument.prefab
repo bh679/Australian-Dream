@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5318696548843199825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5318696548843199820}
+  - component: {fileID: 5318696548843199823}
+  - component: {fileID: 5318696548843199822}
+  - component: {fileID: 5318696548843199821}
+  - component: {fileID: 5318696548843199818}
+  - component: {fileID: 5318696548843199819}
+  - component: {fileID: 5318696548843199816}
+  - component: {fileID: 5318696548843199817}
+  m_Layer: 5
+  m_Name: UIDocument
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5318696548843199820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5318696548843199823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: a78ac3330331442d58e7e30b13fb4a00, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 9a91bc0dd18aa48e39581ea3a2081b40, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &5318696548843199822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dd6b6ce36c4b4bfca25472be1adcf71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  buttons:
+  - id: LeftButton
+    key: 15
+    onPress:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5318696548843199816}
+          m_TargetAssemblyTypeName: BrennanHatton.UnityTools.MonoFloat.UIElementFader,
+            Assembly-CSharp
+          m_MethodName: FadeToTarget
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 5
+            m_StringArgument: LeftButton
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 5318696548843199817}
+          m_TargetAssemblyTypeName: BrennanHatton.UnityTools.MonoFloat.UIElementFader,
+            Assembly-CSharp
+          m_MethodName: FadeToTarget
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: LeftArrowIcon
+            m_BoolArgument: 0
+          m_CallState: 2
+    onRelease:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: RightButton
+    key: 18
+    onPress:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5318696548843199816}
+          m_TargetAssemblyTypeName: BrennanHatton.UnityTools.MonoFloat.UIElementFader,
+            Assembly-CSharp
+          m_MethodName: FadeToTarget
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: RightButton
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 5318696548843199817}
+          m_TargetAssemblyTypeName: BrennanHatton.UnityTools.MonoFloat.UIElementFader,
+            Assembly-CSharp
+          m_MethodName: FadeToTarget
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: RightArrowIcon
+            m_BoolArgument: 0
+          m_CallState: 2
+    onRelease:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: BottomButton
+    key: 33
+    onPress:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5318696548843199816}
+          m_TargetAssemblyTypeName: BrennanHatton.UnityTools.MonoFloat.UIElementFader,
+            Assembly-CSharp
+          m_MethodName: FadeToTarget
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: BottomButton
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 5318696548843199817}
+          m_TargetAssemblyTypeName: BrennanHatton.UnityTools.MonoFloat.UIElementFader,
+            Assembly-CSharp
+          m_MethodName: FadeToTarget
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: RollIcon
+            m_BoolArgument: 0
+          m_CallState: 2
+    onRelease:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &5318696548843199821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 685251e0f3a62482d94cb78d6798a919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  id: VersionLabel
+--- !u!114 &5318696548843199818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df31f8d8d0a47447cbc5d6d51e022507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  id: SongTItleLabel
+  source: {fileID: 0}
+--- !u!114 &5318696548843199819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191e2894bfb02467984cdde82ede8b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  id: ScoreLabel
+  monoFloat: {fileID: 0}
+--- !u!114 &5318696548843199816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6731452260b8430ab6530f5ef798e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  defaultId: LeftButton
+  defaultTime: 2
+  defaultTarget: 0
+--- !u!114 &5318696548843199817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6731452260b8430ab6530f5ef798e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  defaultId: 
+  defaultTime: 2
+  defaultTarget: 0.1
