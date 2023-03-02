@@ -8,6 +8,7 @@ using UnityEngine.InputSystem.LowLevel;
 
 namespace BrennanHatton.UnityTools.UI
 {
+	
 	[System.Serializable]
 	public class UIButton
 	{
