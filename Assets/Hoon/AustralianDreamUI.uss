@@ -1,0 +1,17 @@
+#ButtonsGroupBox {
+    opacity: 1;
+}
+
+#ButtonsGroupBox .unity-button {
+    opacity: 0;
+    display: flex;
+}
+
+#ButtonsGroupBox .Icon {
+    opacity: 0.5;
+    display: flex;
+}
+
+#SongTItleLabel {
+    font-size: 20px;
+}
