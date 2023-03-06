@@ -28,8 +28,8 @@ namespace BrennanHatton.UnityTools.UI
 			
 			Debug.Log(_button);
 			
-			_button.RegisterCallback<MouseDownEvent>(MyMouseDownEvent,TrickleDown.TrickleDown);
-			_button.RegisterCallback<MouseUpEvent>(MyMouseUpEvent,TrickleDown.TrickleDown);
+			_button.RegisterCallback<PointerDownEvent>(MyPointerDownEvent,TrickleDown.TrickleDown);
+			_button.RegisterCallback<PointerUpEvent>(MyPointerUpEvent,TrickleDown.TrickleDown);
 			
 			keyboard = InputSystem.GetDevice<Keyboard>();
 			pressState = new KeyboardState();
@@ -39,34 +39,22 @@ namespace BrennanHatton.UnityTools.UI
  
 		}
 		
-		private void MyMouseDownEvent(MouseDownEvent evt)
+		private void MyPointerDownEvent(PointerDownEvent evt)
 		{
-			/*bool leftMouseButtonPressed = 0 != (evt.pressedButtons & (1 << (int)UnityEngine.UIElements.MouseButton.LeftMouse));
-			bool rightMouseButtonPressed = 0 != (evt.pressedButtons & (1 << (int)UnityEngine.UIElements.MouseButton.RightMouse));
-			bool middleMouseButtonPressed = 0 != (evt.pressedButtons & (1 << (int)UnityEngine.UIElements.MouseButton.MiddleMouse));
-			
-			Debug.Log($"Mouse Down event. Triggered by {(UnityEngine.UIElements.MouseButton)evt.button}.");
-			*/
 			onPress.Invoke();
 			InputSystem.QueueStateEvent(keyboard, pressState);
 		}
 		
-		private void MyMouseUpEvent(MouseUpEvent evt)
+		private void MyPointerUpEvent(PointerUpEvent evt)
 		{
-			/*bool leftMouseButtonPressed = 0 != (evt.pressedButtons & (1 << (int)UnityEngine.UIElements.MouseButton.LeftMouse));
-			bool rightMouseButtonPressed = 0 != (evt.pressedButtons & (1 << (int)UnityEngine.UIElements.MouseButton.RightMouse));
-			bool middleMouseButtonPressed = 0 != (evt.pressedButtons & (1 << (int)UnityEngine.UIElements.MouseButton.MiddleMouse));
-			
-			Debug.Log($"Mouse Up event. Triggered by {(UnityEngine.UIElements.MouseButton)evt.button}.");
-			*/
 			onRelease.Invoke();
 			InputSystem.QueueStateEvent(keyboard, releaseState);
 		}
 		
 		public void OnDisable()
 		{
-			_button.UnregisterCallback<MouseDownEvent>(MyMouseDownEvent);
-			_button.UnregisterCallback<MouseUpEvent>(MyMouseUpEvent);
+			_button.UnregisterCallback<PointerDownEvent>(MyPointerDownEvent);
+			_button.UnregisterCallback<PointerUpEvent>(MyPointerUpEvent);
 		}
 	}
 	

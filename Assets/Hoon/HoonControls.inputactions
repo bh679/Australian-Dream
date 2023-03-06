@@ -56,9 +56,31 @@
                 },
                 {
                     "name": "",
+                    "id": "c8df493f-f07a-4fa3-806e-703b3f9f5ab1",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "b1fe04f3-1d3f-460e-be69-12550a90f563",
                     "path": "<Keyboard>/d",
                     "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1bb20d23-8b6b-4ee4-b95e-2b977e04f298",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Right",
@@ -78,8 +100,30 @@
                 },
                 {
                     "name": "",
+                    "id": "5bf63404-c0cf-4d68-a9bb-2c7723cecdc2",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4705c7a9-aafb-46e7-9b8f-c7b009080e91",
                     "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Roll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ac4f9ad-70f7-441e-8fb1-ec3ee23bff27",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
