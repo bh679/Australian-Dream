@@ -7711,17 +7711,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
+      propertyPath: clips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
       propertyPath: clips.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 865097afd91fd4f02b5e7ea9f09b7d84, type: 3}
+      objectReference: {fileID: 8300000, guid: a9c7011f877b84d7f8c9cbe6fa8f5129, type: 3}
     - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
       propertyPath: clips.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: d149c7f83a1ed4b2589be79b517cafee, type: 3}
+      objectReference: {fileID: 8300000, guid: 3bb15ffb04ccb4564ae004eeb1be12ae, type: 3}
     - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
       propertyPath: clips.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: feaa57f73b2404671963e30c05df93f5, type: 3}
+      objectReference: {fileID: 8300000, guid: 1f950d5a1dd91459d98f6e168440cc6e, type: 3}
     - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
       propertyPath: clips.Array.data[3]
       value: 
