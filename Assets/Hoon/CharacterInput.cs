@@ -94,14 +94,30 @@ public class CharacterInput : MonoBehaviour
 		camera.SetParent(this.transform);
 		camera.transform.localPosition = cameraPos;
 		camera.transform.localEulerAngles = cameraAng;
-		StartCoroutine(directionAfterDelay(1f));
+		ResetDirectionAfterTime(0.75f);
+	}
+	
+	public void ResetDirectionAfterTime(float time)
+	{
+		
+		StartCoroutine(directionAfterDelay(time));
 	}
 	
 	IEnumerator directionAfterDelay(float time)
 	{
-		yield return new WaitForSeconds(time);
+		while(time > 0)
+		{
+			yield return new WaitForSeconds(0.05f);
+			time-= 0.05f;
+			this.transform.eulerAngles = startDirection;
+		}
+		
 		this.transform.eulerAngles = startDirection;
+		
+		yield return null;
 	}
+	
+	
 
     // Update is called once per frame
     void Update()
