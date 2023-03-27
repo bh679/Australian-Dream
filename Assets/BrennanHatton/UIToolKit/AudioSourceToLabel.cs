@@ -9,7 +9,7 @@ namespace BrennanHatton.UnityTools
 	public class AudioSourceToLabel : MonoBehaviour
 	{
 		public UIDocument uiDocument;
-		public string id;
+		public string id;//SongTitleGraphicIMGUIContainer
 		Label label;
 		public AudioSource source;
 		

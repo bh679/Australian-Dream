@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/Hoon/AustralianDreamUI.uss?fileID=7433441132597879392&amp;guid=fe76b6d4d12594b2e900a452b142617d&amp;type=3#AustralianDreamUI" />
     <ui:GroupBox name="TextOverlayGroupBox" style="position: absolute; width: 100%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-        <ui:Label text="Label" display-tooltip-when-elided="true" name="SongTItleLabel" style="height: 7.5%; width: 100%; -unity-text-align: middle-center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 0; top: 0; right: 0; bottom: 0;" />
+        <ui:IMGUIContainer name="SongTitleGraphicIMGUIContainer" style="height: 7.5%;" />
         <ui:GroupBox name="ScoreGroupBox" style="width: 50%; height: 7.5%; left: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
             <ui:Label text="Bad Apples:" display-tooltip-when-elided="true" name="ScoreTitleLabel" style="height: 100%; width: 50%; -unity-text-align: middle-right; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 0; top: 0; right: 0; bottom: 0; position: absolute;" />
             <ui:Label text="20" display-tooltip-when-elided="true" name="ScoreLabel" style="height: 100%; width: 25%; -unity-text-align: middle-center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 50%; top: 0; right: 0; bottom: 0; position: absolute;" />
