@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5318696548843199816}
   - component: {fileID: 5318696548843199817}
   - component: {fileID: 1877250638}
+  - component: {fileID: 1877250639}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -171,6 +172,26 @@ MonoBehaviour:
     onRelease:
       m_PersistentCalls:
         m_Calls: []
+  - id: NextLevelButton
+    key: 0
+    onPress:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: BrennanHatton.UnityTools.RestartGame, BrennanHattonUnityTools
+          m_MethodName: LoadLevel
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: BottomButton
+            m_BoolArgument: 0
+          m_CallState: 2
+    onRelease:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &5318696548843199821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,3 +306,17 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: aec63a06b0c4946f18580eec2054e2af, type: 3}
   - clip: {fileID: 8300000, guid: 3bb15ffb04ccb4564ae004eeb1be12ae, type: 3}
     sprite: {fileID: 21300000, guid: bbce449c379bf4bf4969b1c63dbcfb22, type: 3}
+--- !u!114 &1877250639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717a0c2e8f72942378a5b02e12635e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  id: EndUI

@@ -30,4 +30,8 @@
             <ui:Button display-tooltip-when-elided="true" name="BottomButton" class="ButtonBackground" style="width: 98%; height: 100%;" />
         </ui:GroupBox>
     </ui:GroupBox>
+    <ui:GroupBox name="EndUI" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; display: none;">
+        <ui:IMGUIContainer name="RightArrowIcon" class="Icon" style="position: absolute; width: 25%; left: 40%; top: 40%; background-image: url(&apos;project://database/Assets/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_28.png?fileID=2800000&amp;guid=2774e02f26680ec4b9393679147cf331&amp;type=3#icon_arrow_28&apos;); height: 25%; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(99, 200, 56);" />
+        <ui:Button display-tooltip-when-elided="true" name="NextLevelButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 100%; height: 100%; opacity: 0;" />
+    </ui:GroupBox>
 </ui:UXML>
