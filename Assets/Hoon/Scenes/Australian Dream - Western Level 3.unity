@@ -41569,6 +41569,14 @@ PrefabInstance:
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 606605162}
+    - target: {fileID: 8078671089239736483, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1580467705031556323}
+    - target: {fileID: 8078671089239736483, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayRandomClipPLz
+      objectReference: {fileID: 0}
     - target: {fileID: 8078671089239736484, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
