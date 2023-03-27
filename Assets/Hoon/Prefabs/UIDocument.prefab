@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5318696548843199819}
   - component: {fileID: 5318696548843199816}
   - component: {fileID: 5318696548843199817}
+  - component: {fileID: 1877250638}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5318696548843199825}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -191,7 +192,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5318696548843199825}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df31f8d8d0a47447cbc5d6d51e022507, type: 3}
   m_Name: 
@@ -246,3 +247,41 @@ MonoBehaviour:
   defaultId: 
   defaultTime: 2
   defaultTarget: 0.1
+--- !u!114 &1877250638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2766a135cf92e4f56907568193824c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  id: SongTitleGraphicIMGUIContainer
+  source: {fileID: 0}
+  data:
+  - clip: {fileID: 8300000, guid: 3fa6b9d07cbaf4f6d9a3144e5ea3d71b, type: 3}
+    sprite: {fileID: 21300000, guid: 749752f369e6b4d84965d6f0f0effaa3, type: 3}
+  - clip: {fileID: 8300000, guid: e45f2f59ac3284414ae6f5c4b838080b, type: 3}
+    sprite: {fileID: 21300000, guid: d1566b500b2634e9c9116c64748afdfd, type: 3}
+  - clip: {fileID: 8300000, guid: e749ec308ba6a402a9411718794c6595, type: 3}
+    sprite: {fileID: 21300000, guid: c1cc7f4401d184db581667a4297a5f1e, type: 3}
+  - clip: {fileID: 8300000, guid: feb522b05414942b1ba60d1b606ebae9, type: 3}
+    sprite: {fileID: 21300000, guid: da2a9eb39116c4fe1a2d3e3386df8fe4, type: 3}
+  - clip: {fileID: 8300000, guid: 0f4f362ab1b244a1e81919598be680e1, type: 3}
+    sprite: {fileID: 21300000, guid: 9f4c5fdbf61e048cbbf7ce9f74df5c96, type: 3}
+  - clip: {fileID: 8300000, guid: a58d9171ca3334aeda230d55f36c4fa8, type: 3}
+    sprite: {fileID: 21300000, guid: f3ed490eeeb0b466dbb7d8ca1a1fce85, type: 3}
+  - clip: {fileID: 8300000, guid: 1f950d5a1dd91459d98f6e168440cc6e, type: 3}
+    sprite: {fileID: 21300000, guid: ed10087aa6d254213845aea2feedef27, type: 3}
+  - clip: {fileID: 8300000, guid: a8745b109eab348d291078fa745d4a75, type: 3}
+    sprite: {fileID: 21300000, guid: 488a5c05aa4d54a0e87c102bbc340e9e, type: 3}
+  - clip: {fileID: 8300000, guid: 3051d469b52c64a03bd05b4e723cc002, type: 3}
+    sprite: {fileID: 21300000, guid: 5f857637ef47148f5bf2518d4b301c62, type: 3}
+  - clip: {fileID: 8300000, guid: a9c7011f877b84d7f8c9cbe6fa8f5129, type: 3}
+    sprite: {fileID: 21300000, guid: aec63a06b0c4946f18580eec2054e2af, type: 3}
+  - clip: {fileID: 8300000, guid: 3bb15ffb04ccb4564ae004eeb1be12ae, type: 3}
+    sprite: {fileID: 21300000, guid: bbce449c379bf4bf4969b1c63dbcfb22, type: 3}
