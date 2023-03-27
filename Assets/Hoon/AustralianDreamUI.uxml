@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Hoon/AustralianDreamUI.uss?fileID=7433441132597879392&amp;guid=fe76b6d4d12594b2e900a452b142617d&amp;type=3#AustralianDreamUI" />
+    <ui:GroupBox name="TextOverlayGroupBox" style="position: absolute; width: 100%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="SongTItleLabel" style="height: 7.5%; width: 100%; -unity-text-align: middle-center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 0; top: 0; right: 0; bottom: 0;" />
+        <ui:GroupBox name="ScoreGroupBox" style="width: 50%; height: 7.5%; left: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:Label text="Bad Apples:" display-tooltip-when-elided="true" name="ScoreTitleLabel" style="height: 100%; width: 50%; -unity-text-align: middle-right; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 0; top: 0; right: 0; bottom: 0; position: absolute;" />
+            <ui:Label text="20" display-tooltip-when-elided="true" name="ScoreLabel" style="height: 100%; width: 25%; -unity-text-align: middle-center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 50%; top: 0; right: 0; bottom: 0; position: absolute;" />
+            <ui:IMGUIContainer style="position: absolute; left: 75%; width: 25%; height: 100%; background-image: url(&apos;project://database/Assets/Hoon/Images/BadApple.png?fileID=2800000&amp;guid=272f106f30bcd40e3a977e40e033edc9&amp;type=3#BadApple&apos;); -unity-background-scale-mode: scale-to-fit;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+    <ui:GroupBox name="FooterGroupBox" style="position: absolute; left: 0; top: 90%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; height: 10%; width: 100%;">
+        <ui:Label text="By Brennan Hatton &amp; Daniel Breda&#10;in collaboration with Hoon" display-tooltip-when-elided="true" name="CreditsLabel" style="height: 100%; -unity-text-align: middle-center; width: 50%; left: 25%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        <ui:Label text="2231" display-tooltip-when-elided="true" name="VersionLabel" style="height: 100%; -unity-text-align: middle-center; width: 25%; left: 75%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="ButtonsGroupBox" style="left: 0; top: 0; right: 0; bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; position: absolute;">
+        <ui:Button display-tooltip-when-elided="true" name="TopButton" class="ButtonBackground" style="width: 100%; height: 20%; opacity: 0;" />
+        <ui:GroupBox name="Directions" style="width: 100%; height: 60%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 0; top: 0; right: 0; bottom: 0;">
+            <ui:GroupBox name="LeftGroupBox" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 1%; padding-right: 1%; padding-top: 1%; padding-bottom: 1%; position: absolute; width: 50%; height: 100%;">
+                <ui:IMGUIContainer name="LeftArrowIcon" class="Icon" style="position: relative; width: 50%; left: 25%; top: 25%; background-image: url(&apos;project://database/Assets/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_27.png?fileID=2800000&amp;guid=8a50601cb97660d4a89fac9c745d98e3&amp;type=3#icon_arrow_27&apos;); height: 50%; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:Button display-tooltip-when-elided="true" name="LeftButton" style="height: 100%; width: 100%; position: absolute; -unity-background-scale-mode: stretch-to-fill; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="RightGroupBox" style="position: absolute; left: 50%; width: 50%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 1%; padding-right: 1%; padding-top: 1%; padding-bottom: 1%;">
+                <ui:IMGUIContainer name="RightArrowIcon" class="Icon" style="position: relative; width: 50%; left: 25%; top: 25%; background-image: url(&apos;project://database/Assets/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_28.png?fileID=2800000&amp;guid=2774e02f26680ec4b9393679147cf331&amp;type=3#icon_arrow_28&apos;); height: 50%; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:Button display-tooltip-when-elided="true" name="RightButton" style="height: 100%; width: 100%; position: absolute; left: auto;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="BottomButtonGroupBox" style="width: 100%; height: 20%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 1%; padding-right: 1%; padding-top: 1%; padding-bottom: 1%;">
+            <ui:IMGUIContainer name="RollIcon" class="Icon" style="position: absolute; width: 50%; left: 25%; top: 25%; background-image: url(&apos;project://database/Assets/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_3.png?fileID=2800000&amp;guid=26bec37b69aa32349a7ebc55eb099442&amp;type=3#icon_arrow_3&apos;); height: 50%; -unity-background-scale-mode: scale-to-fit;" />
+            <ui:Button display-tooltip-when-elided="true" name="BottomButton" class="ButtonBackground" style="width: 98%; height: 100%;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>
