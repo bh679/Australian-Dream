@@ -1214,7 +1214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4213052104535800, guid: dbe1e040acad8d547bcd315402af2e2f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.131355
+      value: 53.11
       objectReference: {fileID: 0}
     - target: {fileID: 4213052104535800, guid: dbe1e040acad8d547bcd315402af2e2f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1222,7 +1222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4213052104535800, guid: dbe1e040acad8d547bcd315402af2e2f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.258445
+      value: 12.66
       objectReference: {fileID: 0}
     - target: {fileID: 4213052104535800, guid: dbe1e040acad8d547bcd315402af2e2f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2747,6 +2747,10 @@ PrefabInstance:
       value: Game Manager
       objectReference: {fileID: 0}
     - target: {fileID: 5086852412522426940, guid: 756b02fe2567a497d8361808616b8828, type: 3}
+      propertyPath: time
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086852412522426940, guid: 756b02fe2567a497d8361808616b8828, type: 3}
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
       objectReference: {fileID: 0}
@@ -2870,6 +2874,14 @@ PrefabInstance:
       propertyPath: scoreFloat
       value: 
       objectReference: {fileID: 874172043}
+    - target: {fileID: 1850423835032377723, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.429
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850423835032377723, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.092
+      objectReference: {fileID: 0}
     - target: {fileID: 1850423835194443785, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
       propertyPath: scoreFloat
       value: 
@@ -2926,6 +2938,14 @@ PrefabInstance:
       propertyPath: scoreFloat
       value: 
       objectReference: {fileID: 874172043}
+    - target: {fileID: 1850423835930201494, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.339
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850423835930201494, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.525
+      objectReference: {fileID: 0}
     - target: {fileID: 1850423835930548075, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
       propertyPath: scoreFloat
       value: 
@@ -2962,6 +2982,14 @@ PrefabInstance:
       propertyPath: scoreFloat
       value: 
       objectReference: {fileID: 874172043}
+    - target: {fileID: 1850423836346746994, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.281
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850423836346746994, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.438
+      objectReference: {fileID: 0}
     - target: {fileID: 1850423836411342513, guid: 143517b70d66a403c8eeb927279ae945, type: 3}
       propertyPath: scoreFloat
       value: 
