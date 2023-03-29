@@ -8219,7 +8219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5318696548843199822, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
       propertyPath: buttons.Array.data[3].onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5318696548843199822, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
       propertyPath: buttons.Array.data[3].onPress.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName

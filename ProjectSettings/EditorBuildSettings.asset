@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Hoon/Scenes/Australian Dream - Town Level 3.unity
     guid: 8c8b5c70296684848b31a7ad5c3a53a0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Hoon/Scenes/Australian Dream - Driving - Level 4.unity
     guid: 14321a27195fb41d7b3592648fba6455
   m_configObjects: {}
