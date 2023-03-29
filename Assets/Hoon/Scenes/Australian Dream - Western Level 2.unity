@@ -2287,6 +2287,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1325289089470325420, guid: b696dc7cbb7d0f140b53e719895fdc04, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6556604
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325289089470325420, guid: b696dc7cbb7d0f140b53e719895fdc04, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9271571
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325289089470325420, guid: b696dc7cbb7d0f140b53e719895fdc04, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2846764984084948960, guid: b696dc7cbb7d0f140b53e719895fdc04, type: 3}
       propertyPath: m_Name
       value: Directional Light
@@ -3834,7 +3846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5038613186189183729, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5038613186189183729, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
       propertyPath: m_StaticEditorFlags
