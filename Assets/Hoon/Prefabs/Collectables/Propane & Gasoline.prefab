@@ -251,7 +251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3014328831510958168, guid: 38b1b01388a984401b3d5aa647ac2566, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: AddToScore
+      value: AddToFloat
       objectReference: {fileID: 0}
     - target: {fileID: 3014328831510958168, guid: 38b1b01388a984401b3d5aa647ac2566, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
@@ -267,7 +267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3014328831510958168, guid: 38b1b01388a984401b3d5aa647ac2566, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: BrennanHatton.Scoring.UpdateScoreFloat, Assembly-CSharp
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
       objectReference: {fileID: 0}
     - target: {fileID: 3014328831510958168, guid: 38b1b01388a984401b3d5aa647ac2566, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName

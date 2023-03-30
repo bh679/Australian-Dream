@@ -5133,6 +5133,10 @@ PrefabInstance:
       value: Country Background
       objectReference: {fileID: 0}
     - target: {fileID: 5700620212561692651, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5700620212561692651, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
