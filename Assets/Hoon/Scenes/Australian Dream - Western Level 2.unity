@@ -1655,7 +1655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5318696548843199822, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
       propertyPath: buttons.Array.data[3].onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5318696548843199822, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
       propertyPath: buttons.Array.data[3].onPress.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1882,6 +1882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
+      propertyPath: clips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1580467705430770224, guid: 0e62863f5f35a40e18ed65c7d9529eff, type: 3}
       propertyPath: clips.Array.data[0]
       value: 
@@ -2870,7 +2874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5086852412522426940, guid: 756b02fe2567a497d8361808616b8828, type: 3}
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5086852412522426941, guid: 756b02fe2567a497d8361808616b8828, type: 3}
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
