@@ -28,6 +28,7 @@
 /[Aa]ssets/CleanFlatIcon*
 /[Aa]ssets/FrostweepGames*
 /[Aa]ssets/Dance_MoCap_Collection/*
+/[Aa]ssets/BrennanHatton/LeaderBoaords/EndPoints/*.txt
 
 #Brennan Specific
 /[Aa]ssets/BrennanHatton/Webhooks/*.txt
