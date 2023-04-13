@@ -7,14 +7,19 @@ namespace Leaderboard
 
 	public class GetLeaderboard : MonoBehaviour
 	{
-		public string GETFunctionURL = "https://australiandreamleaderboard.azurewebsites.net/api/GetLeaderboard?code=BGGDR2LFFCPYObNE5F1CnVUFBz-IN4SeZZZAbta_tT6_AzFuPiSC7Q==",
-			POSTFunctionURL = "https://australiandreamleaderboard.azurewebsites.net/api/AddScore?code=Hk5k0vQbkIEmuDSc_4f4Hly22u0PXHEIsQtEGSQcSTwMAzFu-PlFsg==";
+		public TextAsset GetLeaderboardEndPoint, AddScoreEndPoint;
+		
+		public string GETFunctionURL,
+			POSTFunctionURL;
 		public LeaderboardUI UI;
 		
 		public LeaderboardSingle score;
 	    // Start is called before the first frame update
 	    void Start()
-	    {
+		{
+			GETFunctionURL = GetLeaderboardEndPoint.text;
+			POSTFunctionURL = AddScoreEndPoint.text;
+	    	
 		    GetLeaderboardPlz();
 		    PostToLeaderbaord(score);
 	    }
