@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5648208377423038975}
-  - component: {fileID: 5648208377423038974}
+  - component: {fileID: 4290196154131213481}
+  - component: {fileID: 3506248298044393305}
   m_Layer: 0
   m_Name: LeaderboardUI
   m_TagString: Untagged
@@ -47,7 +48,7 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00030517578, y: 25.76}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5648208377423038974
+--- !u!114 &4290196154131213481
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,10 +57,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 5648208377423038960}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd2670c0398eaf3448016ce394d500fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 4075b23a3fa8e40be99e0a48a838aae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GoldColor: {r: 0.9811321, g: 0.76583683, b: 0.0046279924, a: 0}
+  SilverColor: {r: 0.5943396, g: 0.5747152, b: 0.5747152, a: 0}
+  BronzColor: {r: 0.6698113, g: 0.26299778, b: 0.041073352, a: 0}
   loadingGameObject: {fileID: 5648208378618725863}
+--- !u!114 &3506248298044393305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5648208377423038960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017b6ce5787134a23a15d6571d10666a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GetLeaderboardEndPoint: {fileID: 0}
+  AddScoreEndPoint: {fileID: 0}
+  GETFunctionURL: 
+  POSTFunctionURL: 
+  UI: {fileID: 0}
+  score:
+    name: 
+    score: 0
 --- !u!1 &5648208377469797450
 GameObject:
   m_ObjectHideFlags: 0

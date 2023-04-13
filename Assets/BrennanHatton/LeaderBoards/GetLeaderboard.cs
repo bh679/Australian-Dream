@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BrennanHatton.UnityTools.MonoFloat;
 
 namespace Leaderboard
 {
@@ -14,13 +15,15 @@ namespace Leaderboard
 		public LeaderboardUI UI;
 		
 		public LeaderboardSingle score;
+		public MonoFloat monoFloat;
 	    // Start is called before the first frame update
 	    void Start()
 		{
 			GETFunctionURL = GetLeaderboardEndPoint.text;
 			POSTFunctionURL = AddScoreEndPoint.text;
-	    	
-		    GetLeaderboardPlz();
+			
+			score.score = (int)monoFloat.GetFloat();
+			
 		    PostToLeaderbaord(score);
 	    }
 	    
@@ -50,6 +53,8 @@ namespace Leaderboard
 			},
 			(string response)=>{
 				Debug.Log("Response: "+response);
+	    	
+				GetLeaderboardPlz();
 			}
 			);
 		}
