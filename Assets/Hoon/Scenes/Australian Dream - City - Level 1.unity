@@ -8425,6 +8425,10 @@ PrefabInstance:
       propertyPath: source
       value: 
       objectReference: {fileID: 676101841}
+    - target: {fileID: 1877250639, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
+      propertyPath: id
+      value: ScreenshotUI
+      objectReference: {fileID: 0}
     - target: {fileID: 5318696548843199818, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
       propertyPath: source
       value: 
@@ -8515,17 +8519,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
+--- !u!114 &1877250636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5318696548843199823, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
+  m_PrefabInstance: {fileID: 1877250635}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877250637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1877250637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5318696548843199825, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
+  m_PrefabInstance: {fileID: 1877250635}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1877250639 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1877250639, guid: fdd4d7e6374ca404a8f3127803d6eff6, type: 3}
   m_PrefabInstance: {fileID: 1877250635}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1877250637}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 717a0c2e8f72942378a5b02e12635e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1877250640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877250637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717a0c2e8f72942378a5b02e12635e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 1877250636}
+  id: EndUI
 --- !u!114 &1885442375 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8078671089239736492, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
