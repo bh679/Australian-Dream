@@ -30,14 +30,14 @@
             <ui:Button display-tooltip-when-elided="true" name="BottomButton" class="ButtonBackground" style="width: 98%; height: 100%;" />
         </ui:GroupBox>
     </ui:GroupBox>
-    <ui:GroupBox name="EndUI" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; display: flex;">
-        <ui:IMGUIContainer name="RightArrowIcon" class="Icon" style="position: absolute; width: 25%; left: 40%; top: 65%; background-image: url(&apos;project://database/Assets/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_28.png?fileID=2800000&amp;guid=2774e02f26680ec4b9393679147cf331&amp;type=3#icon_arrow_28&apos;); height: 25%; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(99, 200, 56);" />
-        <ui:Button display-tooltip-when-elided="true" name="NextLevelButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 100%; height: 100%; opacity: 0; position: relative; left: 40%; right: 20%; top: 60%; bottom: 20%;" />
+    <ui:GroupBox name="EndUI" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; display: none;">
+        <ui:IMGUIContainer name="RightArrowIcon" class="Icon" style="position: absolute; width: 20%; left: 40%; top: 65%; background-image: url(&apos;project://database/Assets/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_28.png?fileID=2800000&amp;guid=2774e02f26680ec4b9393679147cf331&amp;type=3#icon_arrow_28&apos;); height: 25%; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(99, 200, 56);" />
+        <ui:Button display-tooltip-when-elided="true" name="NextLevelButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 20%; height: 100%; opacity: 0; position: relative; left: 40%; right: 20%; top: 65%; bottom: 20%;" />
     </ui:GroupBox>
     <ui:GroupBox name="ScreenshotUI" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; display: none;">
-        <ui:IMGUIContainer name="RightArrowIcon" class="Icon" style="position: absolute; width: 25%; left: 40%; top: 60%; background-image: none; height: 25%; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(99, 200, 56);">
-            <ui:Label text="Take a&#10; screenshot&#10;@Hoonsfunland" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+        <ui:IMGUIContainer name="RightArrowIcon" class="Icon" style="position: absolute; width: 100%; left: 0; top: 0; background-image: none; height: 7%; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(99, 200, 56); background-color: rgb(62, 255, 0);">
+            <ui:Label text="Screenshot and share to win $&#10; " display-tooltip-when-elided="true" enable-rich-text="false" style="-unity-text-align: upper-center;" />
         </ui:IMGUIContainer>
-        <ui:Button display-tooltip-when-elided="true" name="NextLevelButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 100%; height: 100%; opacity: 0;" />
+        <ui:Button display-tooltip-when-elided="true" name="ScreenshotDoneButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 100%; height: 100%; opacity: 0; position: relative; left: 0; right: 0; top: 0; bottom: 0; display: flex;" />
     </ui:GroupBox>
 </ui:UXML>
