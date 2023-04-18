@@ -673,9 +673,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -1449,9 +1461,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -2564,9 +2588,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -5801,9 +5837,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -6735,6 +6783,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &669404458 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1356360463217874073, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+  m_PrefabInstance: {fileID: 1356360463525300359}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4df7d270bc1d0408a27bcae4b56c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &673319093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7618,9 +7677,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -8433,6 +8504,116 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a9858b4309bcf4cbe7ef09ae436c1d, type: 3}
+--- !u!1001 &781156991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_Name
+      value: Leaderboard UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 247.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857798396587, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6627207078680017813}
+    - target: {fileID: 5073524857798396587, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 6627207078680017812}
+    - target: {fileID: 5073524857798396587, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857798396587, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524858565149057, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524858565149058, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: monoFloat
+      value: 
+      objectReference: {fileID: 113512738}
+    - target: {fileID: 5073524858565149086, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 229.388
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524858565149086, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524858565149086, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -246.20215
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524858565149087, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 498872660}
+    - target: {fileID: 5073524858565149087, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TurnOn
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+--- !u!1 &781156992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+  m_PrefabInstance: {fileID: 781156991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &784634639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15501,9 +15682,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -17943,9 +18136,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -18222,9 +18427,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113512738}
     - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 669404458}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -19023,18 +19240,6 @@ MonoBehaviour:
   onTriggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Win
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1413612892}
         m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
         m_MethodName: SetParent
@@ -19044,18 +19249,6 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CharacterInput, Assembly-CSharp
-        m_MethodName: TurnAroundAfter
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -19083,9 +19276,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 9076727321998681280}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19093,12 +19286,12 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 498872660}
-        m_TargetAssemblyTypeName: TurnOnId, Assembly-CSharp
-        m_MethodName: TurnOn
-        m_Mode: 1
+      - m_Target: {fileID: 781156992}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -22567,6 +22760,14 @@ PrefabInstance:
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 632813296}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356360463217874075, guid: a501911f7728740508621eed2b9a44e2, type: 3}
+      propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: BrennanHatton.UnityTools.MonoFloat.UpdateMonoFloat, BrennanHattonUnityTools
+      objectReference: {fileID: 0}
     - target: {fileID: 1356360463897398353, guid: a501911f7728740508621eed2b9a44e2, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -23021,6 +23222,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d9bc6b5c97cc44d5bb2110127755378, type: 3}
+--- !u!1 &6627207078680017812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1248493861, guid: 7d9bc6b5c97cc44d5bb2110127755378, type: 3}
+  m_PrefabInstance: {fileID: 6627207078680017811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6627207078680017813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6627207079674154653, guid: 7d9bc6b5c97cc44d5bb2110127755378, type: 3}
+  m_PrefabInstance: {fileID: 6627207078680017811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9076727321998681279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23194,3 +23405,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d835c603b19b47efa5e429871ff7641, type: 3}
+--- !u!65 &9076727321998681280 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 9076727322648291297, guid: 6d835c603b19b47efa5e429871ff7641, type: 3}
+  m_PrefabInstance: {fileID: 9076727321998681279}
+  m_PrefabAsset: {fileID: 0}

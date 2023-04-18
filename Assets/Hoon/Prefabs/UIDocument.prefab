@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 5318696548843199817}
   - component: {fileID: 1877250638}
   - component: {fileID: 1877250639}
+  - component: {fileID: 1877250640}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -189,6 +190,50 @@ MonoBehaviour:
             m_StringArgument: BottomButton
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1877250639}
+          m_TargetAssemblyTypeName: TurnOnId, Assembly-CSharp
+          m_MethodName: TurnOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1877250640}
+          m_TargetAssemblyTypeName: TurnOnId, Assembly-CSharp
+          m_MethodName: TurnOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onRelease:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: ScreenshotDoneButton
+    key: 0
+    onPress:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1877250640}
+          m_TargetAssemblyTypeName: TurnOnId, Assembly-CSharp
+          m_MethodName: TurnOn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: BottomButton
+            m_BoolArgument: 0
+          m_CallState: 2
     onRelease:
       m_PersistentCalls:
         m_Calls: []
@@ -307,6 +352,20 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: 3bb15ffb04ccb4564ae004eeb1be12ae, type: 3}
     sprite: {fileID: 21300000, guid: bbce449c379bf4bf4969b1c63dbcfb22, type: 3}
 --- !u!114 &1877250639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717a0c2e8f72942378a5b02e12635e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  id: ScreenshotUI
+--- !u!114 &1877250640
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
