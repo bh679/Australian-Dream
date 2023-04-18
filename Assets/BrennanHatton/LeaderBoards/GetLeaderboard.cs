@@ -39,7 +39,7 @@ namespace Leaderboard
 				Leaderboard leaderboard = JsonUtility.FromJson<Leaderboard>(response);
 				Debug.Log(leaderboard.leaderboardSingleList[0].name);
 				
-				UI.ShowLeaderboard(leaderboard);
+				UI.ShowLeaderboard(leaderboard, score);
 			}
 			);
 			

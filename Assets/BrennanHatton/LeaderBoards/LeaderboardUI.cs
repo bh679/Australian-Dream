@@ -27,6 +27,7 @@ namespace Leaderboard
 	
 		[SerializeField] private GameObject loadingGameObject;
 	
+		LeaderboardSingle myScore;
 	
 		private Transform entryContainer;
 		private Transform entryTemplate;
@@ -60,14 +61,22 @@ namespace Leaderboard
 			loadingGameObject.SetActive(true);
 		}
 	
+		int rank = 0;
 		private void CreateHighscoreEntryTransform(LeaderboardSingle leaderboardSingle, Transform container, List<Transform> transformList) {
+			
+			bool isMyScore = (leaderboardSingle.name == myScore.name && leaderboardSingle.score == myScore.score);
+			
 			float templateHeight = 31f;
+			rank = rank + 1;//transformList.Count + 1;
+			
+			if(rank > 12 && !isMyScore)
+				return;
+			
 			Transform entryTransform = Instantiate(entryTemplate, container);
 			RectTransform entryRectTransform = entryTransform.GetComponent<RectTransform>();
 			entryRectTransform.anchoredPosition = new Vector2(0, -templateHeight * transformList.Count);
 			entryTransform.gameObject.SetActive(true);
 	
-			int rank = transformList.Count + 1;
 			string rankString;
 			switch (rank) {
 			default:
@@ -88,10 +97,13 @@ namespace Leaderboard
 			entryTransform.Find("nameText").GetComponent<Text>().text = name;
 	
 			// Set background visible odds and evens, easier to read
-			entryTransform.Find("background").gameObject.SetActive(rank % 2 == 1);
+			if(isMyScore)
+				entryTransform.Find("background").gameObject.SetActive(true);
+			else
+				entryTransform.Find("background").gameObject.SetActive(rank % 2 == 1);
 	        
 			// Highlight First
-			if (rank == 1) {
+			if (isMyScore) {
 				entryTransform.Find("posText").GetComponent<Text>().color = Color.green;
 				entryTransform.Find("scoreText").GetComponent<Text>().color = Color.green;
 				entryTransform.Find("nameText").GetComponent<Text>().color = Color.green;
@@ -117,8 +129,10 @@ namespace Leaderboard
 			transformList.Add(entryTransform);
 		}
 	
-	
-		public void ShowLeaderboard(Leaderboard leaderboard) {
+		public void ShowLeaderboard(Leaderboard leaderboard, LeaderboardSingle _myScore) {
+			myScore = _myScore;
+			rank = 0;
+			
 			gameObject.SetActive(true);
 			loadingGameObject.SetActive(false);
 	
