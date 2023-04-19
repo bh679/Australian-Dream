@@ -212,6 +212,39 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4158341284893301945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5866832842262264229}
+  m_Layer: 0
+  m_Name: RunLeadboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5866832842262264229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4158341284893301945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5073524858235764889}
+  - {fileID: 5073524858565149086}
+  m_Father: {fileID: 5073524857078635009}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5073524856847702455
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,13 +467,14 @@ GameObject:
   - component: {fileID: 5073524857078635009}
   - component: {fileID: 1888904910}
   - component: {fileID: 1888904911}
+  - component: {fileID: 4376714354023225075}
   m_Layer: 0
   m_Name: Leaderboard UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5073524857078635009
 Transform:
   m_ObjectHideFlags: 0
@@ -453,8 +487,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5073524858235764889}
-  - {fileID: 5073524858565149086}
+  - {fileID: 5866832842262264229}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -493,7 +526,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733f6f3105f4472c9f75bc706c1b7a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leaderboard: {fileID: 5073524858565149058}
+--- !u!114 &4376714354023225075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5073524857078635008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017b6ce5787134a23a15d6571d10666a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GetLeaderboardEndPoint: {fileID: 4900000, guid: 06ad497bc9031461a90d1725e0f7e189, type: 3}
+  AddScoreEndPoint: {fileID: 4900000, guid: 74a033dbc2e2744a98fe23e572852fe8, type: 3}
+  GETFunctionURL: 
+  POSTFunctionURL: 
+  UI: {fileID: 9070550167022909409}
+  nameGenerator: {fileID: 5073524858330019347}
+  score:
+    name: PumpkinHead
+    score: 0
+    deviceId: 
+    timeStamp: 0
+  myBest:
+    name: 
+    score: 0
+    deviceId: 
+    timeStamp: 0
+  monoFloat: {fileID: 0}
+  newBPBool: 0
 --- !u!1 &5073524857238378817
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,13 +999,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5073524858235764893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5073524858858599066}
-  m_Father: {fileID: 5073524857078635009}
+  m_Father: {fileID: 5866832842262264229}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1404,7 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputField: {fileID: 5073524858330019373}
-  laederboard: {fileID: 5073524858565149058}
+  laederboard: {fileID: 0}
   firstName:
   - Pumpkin
   - Shark
@@ -1530,7 +1592,6 @@ GameObject:
   - component: {fileID: 5073524858565149085}
   - component: {fileID: 5073524858565149084}
   - component: {fileID: 5073524858565149059}
-  - component: {fileID: 5073524858565149058}
   - component: {fileID: 5073524858565149087}
   m_Layer: 5
   m_Name: Canvas
@@ -1553,7 +1614,7 @@ RectTransform:
   m_Children:
   - {fileID: 579469438513959607}
   - {fileID: 1230242570}
-  m_Father: {fileID: 5073524857078635009}
+  m_Father: {fileID: 5866832842262264229}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1622,36 +1683,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5073524858565149058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5073524858565149057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017b6ce5787134a23a15d6571d10666a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GetLeaderboardEndPoint: {fileID: 4900000, guid: 06ad497bc9031461a90d1725e0f7e189, type: 3}
-  AddScoreEndPoint: {fileID: 4900000, guid: 74a033dbc2e2744a98fe23e572852fe8, type: 3}
-  GETFunctionURL: 
-  POSTFunctionURL: 
-  UI: {fileID: 9070550167022909409}
-  nameGenerator: {fileID: 5073524858330019347}
-  score:
-    name: PumpkinHead
-    score: 0
-    deviceId: 
-    timeStamp: 0
-  myBest:
-    name: 
-    score: 0
-    deviceId: 
-    timeStamp: 0
-  monoFloat: {fileID: 0}
-  newBPBool: 0
 --- !u!114 &5073524858565149087
 MonoBehaviour:
   m_ObjectHideFlags: 0

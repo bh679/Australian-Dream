@@ -11,7 +11,8 @@
     </ui:GroupBox>
     <ui:GroupBox name="FooterGroupBox" style="position: absolute; left: 0; top: 90%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; height: 10%; width: 100%;">
         <ui:Label text="By Brennan Hatton &amp; Daniel Breda&#10;in collaboration with Hoon" display-tooltip-when-elided="true" name="CreditsLabel" style="height: 100%; -unity-text-align: middle-center; width: 50%; left: 25%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
-        <ui:Label text="2231" display-tooltip-when-elided="true" name="VersionLabel" style="height: 100%; -unity-text-align: middle-center; width: 25%; left: 75%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute;" />
+        <ui:Label text="2231" display-tooltip-when-elided="true" name="VersionLabel" style="height: 50%; -unity-text-align: middle-center; width: 25%; left: 75%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute;" />
+        <ui:Label text="LocalID" display-tooltip-when-elided="true" name="DeviceID" style="height: 50%; -unity-text-align: middle-center; width: 25%; left: 75%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute; top: 50%; font-size: 5px;" />
     </ui:GroupBox>
     <ui:GroupBox name="ButtonsGroupBox" style="left: 0; top: 0; right: 0; bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; position: absolute;">
         <ui:Button display-tooltip-when-elided="true" name="TopButton" class="ButtonBackground" style="width: 100%; height: 20%; opacity: 0;" />

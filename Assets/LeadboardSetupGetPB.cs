@@ -5,15 +5,13 @@ using Leaderboard;
 
 public class LeadboardSetupGetPB : MonoBehaviour
 {
-	public GetLeaderboard leaderboard;
-	
 	
     // Start is called before the first frame update
     void Start()
     {
         
-	    leaderboard.Setup();
-	    leaderboard.GetLeaderboardPlz(false);
+	    GetLeaderboard.Instance.Setup();
+	    GetLeaderboard.Instance.GetLeaderboardPlz(false);
     
     }
 }

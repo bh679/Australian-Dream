@@ -10,7 +10,7 @@ namespace Leaderboard
 	{
 		
 		public TMP_InputField inputField;
-		public GetLeaderboard laederboard;
+		
 		public string[] firstName, secondName;
 		bool newPBBool;
 		
@@ -18,7 +18,7 @@ namespace Leaderboard
 		
 		void Start()
 		{
-			if(laederboard.myBest == null || string.IsNullOrEmpty(laederboard.myBest.name))
+			if(GetLeaderboard.Instance.myBest == null || string.IsNullOrEmpty(GetLeaderboard.Instance.myBest.name))
 			{
 			
 				if(onStartGenerateName)
@@ -27,7 +27,7 @@ namespace Leaderboard
 				}
 				
 			}else
-				inputField.text = laederboard.score.name = laederboard.myBest.name;
+				inputField.text = GetLeaderboard.Instance.score.name = GetLeaderboard.Instance.myBest.name;
 			
 		}
 		
@@ -35,24 +35,24 @@ namespace Leaderboard
 			inputField.text = newName;
 		}
 		
-		public void SetPlaceholderName()
+		/*public void SetPlaceholderName()
 		{
-			if(laederboard.myBest == null || string.IsNullOrEmpty(laederboard.myBest.name))
+			if(GetLeaderboard.Instance.myBest == null || string.IsNullOrEmpty(GetLeaderboard.Instance.myBest.name))
 			{
 				inputField.text = firstName[Random.Range(0,firstName.Length)] + " " + secondName[Random.Range(0,secondName.Length)];
 				
 			}else
-				inputField.text = laederboard.myBest.name;
+				inputField.text = GetLeaderboard.Instance.myBest.name;
 			
-			bool newPBBool = (laederboard.score.score > laederboard.myBest.score);
+			//bool newPBBool = (GetLeaderboard.Instance.score.score > GetLeaderboard.Instance.myBest.score);
 			
-			if(!newPBBool)
+			if(!GetLeaderboard.Instance.newBPBool)
 			{
 				this.gameObject.transform.parent.gameObject.SetActive(false);
-				laederboard.gameObject.SetActive(true);
+				GetLeaderboard.Instance.gameObject.SetActive(true);
 			}
 			
-		}
+		}*/
 		
 		public void SetName()
 		{
@@ -61,11 +61,11 @@ namespace Leaderboard
 				/*if(onStartGenerateName)
 					laederboard.score.name = inputField.placeholder;
 				else	*/
-					laederboard.score.name = firstName[Random.Range(0,firstName.Length)] + " " + secondName[Random.Range(0,secondName.Length)];
+					GetLeaderboard.Instance.score.name = firstName[Random.Range(0,firstName.Length)] + " " + secondName[Random.Range(0,secondName.Length)];
 			}else
-				laederboard.score.name = inputField.text;
+				GetLeaderboard.Instance.score.name = inputField.text;
 				
-			laederboard.gameObject.SetActive(true);
+			GetLeaderboard.Instance.gameObject.SetActive(true);
 		}
 	}
 

@@ -134,7 +134,7 @@ namespace Leaderboard
 			myScore = _myScore;
 			pb = _pb;
 			
-			if(myScore.score < pb.score)
+			if(myScore.score < pb.score || pb.score == 0)
 			{
 				leaderboard.leaderboardSingleList.Add(myScore);
 			}

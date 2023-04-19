@@ -20,22 +20,46 @@ namespace Leaderboard
 		
 		public bool newBPBool;
 		
+		public static GetLeaderboard Instance { get; private set; }
+		private void Awake() 
+		{ 
+			// If there is an instance, and it's not me, delete myself.
+    
+			if (Instance != null && Instance != this) 
+			{ 
+				Destroy(this); 
+			} 
+			else 
+			{ 
+				Instance = this; 
+			} 
+		}
+		
 		public void Setup()
 		{
 			GETFunctionURL = GetLeaderboardEndPoint.text;
 			POSTFunctionURL = AddScoreEndPoint.text;
 			score.deviceId = GetDeviceID();
+			LogScore();
+		}
+		
+		public void LogScore()
+		{
 			score.score = (int)monoFloat.GetFloat();
 			score.timeStamp = System.DateTime.Now.Ticks;
+			newBPBool = (score.score > myBest.score);
 		}
+		
+		
+		
 	    // Start is called before the first frame update
 	    void Start()
 		{
 			Setup();
-			
-			//score.score = (int)monoFloat.GetFloat();
-			//score.timeStamp = System.DateTime.Now.Ticks;
-			
+		}
+		
+		public void ShowLeaderboard()
+		{
 			if(newBPBool)
 			{
 				myBest = score;
@@ -45,7 +69,6 @@ namespace Leaderboard
 			{
 				GetLeaderboardPlz(true);
 			}
-		   
 		}
 	    
 		const string DEVICEIDKEY = "DEVICEID";
@@ -65,7 +88,7 @@ namespace Leaderboard
 			PlayerPrefs.SetString(DEVICEIDKEY,id);
 			PlayerPrefs.Save();
 			
-			
+			Debug.Log(id);
 			return id;
 			
 		}
@@ -109,7 +132,7 @@ namespace Leaderboard
 							if(!newBPBool)
 							{
 								nameGenerator.transform.parent.parent.gameObject.SetActive(false);
-								this.gameObject.SetActive(true);
+								UI.transform.parent.gameObject.SetActive(true);
 							}
 							return;
 						}

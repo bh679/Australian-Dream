@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 1877250638}
   - component: {fileID: 1877250639}
   - component: {fileID: 1877250640}
+  - component: {fileID: 3517586061288106825}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -379,3 +380,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDocument: {fileID: 5318696548843199823}
   id: EndUI
+--- !u!114 &3517586061288106825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318696548843199825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68697c918c6b24894bd22651d7a6a8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 5318696548843199823}
+  id: DeviceID
