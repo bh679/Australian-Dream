@@ -12,7 +12,9 @@ namespace Leaderboard
 		
 	[System.Serializable]
 	public class LeaderboardSingle {
-			public string name;
+		public string name;
 		public int score;
+		public string deviceId;
+		public long timeStamp;
 	}
 }

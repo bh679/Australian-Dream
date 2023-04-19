@@ -382,8 +382,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00030517578, y: -0.0034179688}
-  m_SizeDelta: {x: 0.0035095215, y: 0.0029296875}
+  m_AnchoredPosition: {x: -0.00030517578, y: 8.0939}
+  m_SizeDelta: {x: 0.0035, y: 16.1976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5073524857010557927
 CanvasRenderer:
@@ -1625,9 +1625,17 @@ MonoBehaviour:
   GETFunctionURL: 
   POSTFunctionURL: 
   UI: {fileID: 9070550167022909409}
+  nameGenerator: {fileID: 5073524858330019347}
   score:
     name: PumpkinHead
     score: 0
+    deviceId: 
+    timeStamp: 0
+  myBest:
+    name: 
+    score: 0
+    deviceId: 
+    timeStamp: 0
   monoFloat: {fileID: 0}
 --- !u!114 &5073524858565149087
 MonoBehaviour:

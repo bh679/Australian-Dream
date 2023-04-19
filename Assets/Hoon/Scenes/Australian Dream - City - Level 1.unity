@@ -2662,11 +2662,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextOptions:
-  - Hold down roll to continue rolling
-  - Press the buttons, they do not swipe
-  - Collect all the "bad apples"
-  - Propane is worth 3 points
-  - This is level 1 of 4
+  - Hold roll down longer. Roll more. Roll Better
+  - Press dont swipe. This ain't tinder.
+  - Letrs get these "bad apples" off the street
+  - Go Propane,  or go home
+  - Take it easy.  This ain't level 4.
   - Highest score gets a $ prize on socails
   OnStart: 1
   TextBox: {fileID: 648724443}
@@ -2690,7 +2690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hold down roll to continue rolling
+  m_text: "Go Propane, \nor go home"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2799,6 +2799,17 @@ MonoBehaviour:
   repeats: 1
   onEnable: 1
   repeatOnEnable: 1
+--- !u!114 &656267166 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5073524858565149058, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+  m_PrefabInstance: {fileID: 5073524858430635212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017b6ce5787134a23a15d6571d10666a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &660276844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3369,6 +3380,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 791f45c104c9e4066ba02196321e2b89, type: 3}
+--- !u!114 &775901452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 775901452, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+  m_PrefabInstance: {fileID: 5073524858430635212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &780503718 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8027912123330655353, guid: ba0fd97e711b64c9187849e85486a199, type: 3}
@@ -13560,9 +13582,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 775901451, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 775901452}
+    - target: {fileID: 775901451, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: leaderboard
+      value: 
+      objectReference: {fileID: 656267166}
+    - target: {fileID: 1265001426, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857010557925, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 16.1976
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857010557925, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 8.0939
+      objectReference: {fileID: 0}
     - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_Name
       value: Leaderboard UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_RootOrder
@@ -13616,6 +13662,10 @@ PrefabInstance:
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1200012403}
+    - target: {fileID: 5073524858330019347, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: newPB
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5073524858565149058, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: monoFloat
       value: 
@@ -13624,6 +13674,10 @@ PrefabInstance:
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1877250639}
+    - target: {fileID: 5073524858858599065, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
 --- !u!1001 &5086852412050046294

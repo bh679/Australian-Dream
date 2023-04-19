@@ -27,7 +27,7 @@ namespace Leaderboard
 	
 		[SerializeField] private GameObject loadingGameObject;
 	
-		LeaderboardSingle myScore;
+		LeaderboardSingle myScore, pb;
 	
 		private Transform entryContainer;
 		private Transform entryTemplate;
@@ -64,7 +64,7 @@ namespace Leaderboard
 		int rank = 0;
 		private void CreateHighscoreEntryTransform(LeaderboardSingle leaderboardSingle, Transform container, List<Transform> transformList) {
 			
-			bool isMyScore = (leaderboardSingle.name == myScore.name && leaderboardSingle.score == myScore.score);
+			bool isMyScore = (leaderboardSingle.deviceId == myScore.deviceId);
 			
 			float templateHeight = 31f;
 			rank = rank + 1;//transformList.Count + 1;
@@ -97,7 +97,7 @@ namespace Leaderboard
 			entryTransform.Find("nameText").GetComponent<Text>().text = name;
 	
 			// Set background visible odds and evens, easier to read
-			if(isMyScore)
+			if(rank > 12 && isMyScore)
 				entryTransform.Find("background").gameObject.SetActive(true);
 			else
 				entryTransform.Find("background").gameObject.SetActive(rank % 2 == 1);
@@ -129,8 +129,9 @@ namespace Leaderboard
 			transformList.Add(entryTransform);
 		}
 	
-		public void ShowLeaderboard(Leaderboard leaderboard, LeaderboardSingle _myScore) {
+		public void ShowLeaderboard(Leaderboard leaderboard, LeaderboardSingle _pb,  LeaderboardSingle _myScore) {
 			myScore = _myScore;
+			pb = _pb;
 			rank = 0;
 			
 			gameObject.SetActive(true);

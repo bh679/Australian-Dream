@@ -13,21 +13,76 @@ namespace Leaderboard
 		public string GETFunctionURL,
 			POSTFunctionURL;
 		public LeaderboardUI UI;
+		public InputFeildToName nameGenerator;
 		
-		public LeaderboardSingle score;
+		public LeaderboardSingle score, myBest;
 		public MonoFloat monoFloat;
-	    // Start is called before the first frame update
-	    void Start()
+		
+		public void Setup()
 		{
 			GETFunctionURL = GetLeaderboardEndPoint.text;
 			POSTFunctionURL = AddScoreEndPoint.text;
-			
+			score.deviceId = GetDeviceID();
 			score.score = (int)monoFloat.GetFloat();
+			score.timeStamp = System.DateTime.Now.Ticks;
+		}
+	    // Start is called before the first frame update
+	    void Start()
+		{
+			Setup();
 			
-		    PostToLeaderbaord(score);
-	    }
+			//score.score = (int)monoFloat.GetFloat();
+			//score.timeStamp = System.DateTime.Now.Ticks;
+			
+			if(score.score > myBest.score)
+			{
+				myBest = score;
+				PostToLeaderbaord(myBest);
+			}
+			else
+			{
+				GetLeaderboardPlz(true);
+			}
+		   
+		}
 	    
-		public void GetLeaderboardPlz()
+		const string DEVICEIDKEY = "DEVICEID";
+		public string GetDeviceID()
+		{
+			string id = null;//SystemInfo.deviceUniqueIdentifier;
+			
+			if(string.IsNullOrEmpty(id))
+			{
+				if(PlayerPrefs.HasKey(DEVICEIDKEY))
+				{
+					id = PlayerPrefs.GetString(DEVICEIDKEY);
+				}else
+				{
+					id = GetRandomString(32);
+					PlayerPrefs.SetString(DEVICEIDKEY, id);
+					PlayerPrefs.Save();
+				}
+			}else
+			{
+				PlayerPrefs.SetString(DEVICEIDKEY,id);
+				PlayerPrefs.Save();
+			}
+			
+			return id;
+			
+		}
+		
+		public static string GetRandomString(int length)
+		{
+			var chars = new char[length];
+			for (int i = 0; i < length; i++)
+			{
+				chars[i] = (char)(Random.Range(32, 127));
+			}
+			return new string(chars);
+		}
+	    
+		public void GetLeaderboardPlz(bool show)
 		{
 			WebRequests.Get(GETFunctionURL,
 			(string error)=>{
@@ -39,7 +94,20 @@ namespace Leaderboard
 				Leaderboard leaderboard = JsonUtility.FromJson<Leaderboard>(response);
 				Debug.Log(leaderboard.leaderboardSingleList[0].name);
 				
-				UI.ShowLeaderboard(leaderboard, score);
+				if(show)
+					UI.ShowLeaderboard(leaderboard, myBest, score);
+				else
+				{
+					for(int i = 0; i < leaderboard.leaderboardSingleList.Count; i++)
+					{
+						if(leaderboard.leaderboardSingleList[i].deviceId == score.deviceId)
+						{
+							myBest = leaderboard.leaderboardSingleList[i];
+							nameGenerator.SetPlaceholderName();
+							return;
+						}
+					}
+				}
 			}
 			);
 			
@@ -54,7 +122,7 @@ namespace Leaderboard
 			(string response)=>{
 				Debug.Log("Response: "+response);
 	    	
-				GetLeaderboardPlz();
+				GetLeaderboardPlz(true);
 			}
 			);
 		}
