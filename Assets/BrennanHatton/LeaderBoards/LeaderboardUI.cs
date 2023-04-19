@@ -64,7 +64,7 @@ namespace Leaderboard
 		int rank = 0;
 		private void CreateHighscoreEntryTransform(LeaderboardSingle leaderboardSingle, Transform container, List<Transform> transformList) {
 			
-			bool isMyScore = (leaderboardSingle.deviceId == myScore.deviceId);
+			bool isMyScore = string.Compare(leaderboardSingle.deviceId,myScore.deviceId) == 0;
 			
 			float templateHeight = 31f;
 			rank = rank + 1;//transformList.Count + 1;
@@ -102,7 +102,7 @@ namespace Leaderboard
 			else
 				entryTransform.Find("background").gameObject.SetActive(rank % 2 == 1);
 	        
-			// Highlight First
+			// Highlight Mine
 			if (isMyScore) {
 				entryTransform.Find("posText").GetComponent<Text>().color = Color.green;
 				entryTransform.Find("scoreText").GetComponent<Text>().color = Color.green;
@@ -129,9 +129,16 @@ namespace Leaderboard
 			transformList.Add(entryTransform);
 		}
 	
+		//bool personalBestBool;
 		public void ShowLeaderboard(Leaderboard leaderboard, LeaderboardSingle _pb,  LeaderboardSingle _myScore) {
 			myScore = _myScore;
 			pb = _pb;
+			
+			if(myScore.score < pb.score)
+			{
+				leaderboard.leaderboardSingleList.Add(myScore);
+			}
+			
 			rank = 0;
 			
 			gameObject.SetActive(true);

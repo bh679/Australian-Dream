@@ -433,6 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5073524857078635009}
   - component: {fileID: 1888904910}
+  - component: {fileID: 1888904911}
   m_Layer: 0
   m_Name: Leaderboard UI
   m_TagString: Untagged
@@ -480,6 +481,19 @@ MonoBehaviour:
     own collider and turn on this leaderbaord
 
 '
+--- !u!114 &1888904911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5073524857078635008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2733f6f3105f4472c9f75bc706c1b7a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leaderboard: {fileID: 5073524858565149058}
 --- !u!1 &5073524857238378817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,6 +1651,7 @@ MonoBehaviour:
     deviceId: 
     timeStamp: 0
   monoFloat: {fileID: 0}
+  newBPBool: 0
 --- !u!114 &5073524858565149087
 MonoBehaviour:
   m_ObjectHideFlags: 0

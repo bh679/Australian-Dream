@@ -18,20 +18,21 @@ namespace Leaderboard
 		
 		void Start()
 		{
-			laederboard.Setup();
-			laederboard.GetLeaderboardPlz(false);
-			
 			if(laederboard.myBest == null || string.IsNullOrEmpty(laederboard.myBest.name))
 			{
 			
 				if(onStartGenerateName)
 				{
-					inputField.text = laederboard.score.name = firstName[Random.Range(0,firstName.Length)] + " " + secondName[Random.Range(0,secondName.Length)];
+					inputField.text = firstName[Random.Range(0,firstName.Length)] + " " + secondName[Random.Range(0,secondName.Length)];
 				}
 				
 			}else
-				inputField.text = laederboard.myBest.name;
+				inputField.text = laederboard.score.name = laederboard.myBest.name;
 			
+		}
+		
+		public void SetPlaceholderName(string newName){
+			inputField.text = newName;
 		}
 		
 		public void SetPlaceholderName()

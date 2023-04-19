@@ -18,6 +18,8 @@ namespace Leaderboard
 		public LeaderboardSingle score, myBest;
 		public MonoFloat monoFloat;
 		
+		public bool newBPBool;
+		
 		public void Setup()
 		{
 			GETFunctionURL = GetLeaderboardEndPoint.text;
@@ -34,7 +36,7 @@ namespace Leaderboard
 			//score.score = (int)monoFloat.GetFloat();
 			//score.timeStamp = System.DateTime.Now.Ticks;
 			
-			if(score.score > myBest.score)
+			if(newBPBool)
 			{
 				myBest = score;
 				PostToLeaderbaord(myBest);
@@ -51,22 +53,18 @@ namespace Leaderboard
 		{
 			string id = null;//SystemInfo.deviceUniqueIdentifier;
 			
-			if(string.IsNullOrEmpty(id))
+			if(PlayerPrefs.HasKey(DEVICEIDKEY))
 			{
-				if(PlayerPrefs.HasKey(DEVICEIDKEY))
-				{
-					id = PlayerPrefs.GetString(DEVICEIDKEY);
-				}else
-				{
-					id = GetRandomString(32);
-					PlayerPrefs.SetString(DEVICEIDKEY, id);
-					PlayerPrefs.Save();
-				}
+				id = PlayerPrefs.GetString(DEVICEIDKEY);
+				return id;
 			}else
-			{
-				PlayerPrefs.SetString(DEVICEIDKEY,id);
-				PlayerPrefs.Save();
-			}
+				id = GetRandomString(32);
+				
+			
+		
+			PlayerPrefs.SetString(DEVICEIDKEY,id);
+			PlayerPrefs.Save();
+			
 			
 			return id;
 			
@@ -103,7 +101,16 @@ namespace Leaderboard
 						if(leaderboard.leaderboardSingleList[i].deviceId == score.deviceId)
 						{
 							myBest = leaderboard.leaderboardSingleList[i];
-							nameGenerator.SetPlaceholderName();
+							score.name = myBest.name;
+							newBPBool = (score.score > myBest.score);
+							
+							nameGenerator.SetPlaceholderName(myBest.name);
+							
+							if(!newBPBool)
+							{
+								nameGenerator.transform.parent.parent.gameObject.SetActive(false);
+								this.gameObject.SetActive(true);
+							}
 							return;
 						}
 					}
