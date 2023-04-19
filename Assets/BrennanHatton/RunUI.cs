@@ -32,6 +32,7 @@ namespace BrennanHatton.UnityTools.UI
 			_button.RegisterCallback<PointerUpEvent>(MyPointerUpEvent,TrickleDown.TrickleDown);
 			
 			keyboard = InputSystem.GetDevice<Keyboard>();
+			InputSystem.ResetDevice(keyboard);
 			pressState = new KeyboardState();
 			releaseState = new KeyboardState();
 			pressState.Press(key);
