@@ -9450,37 +9450,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b30b5ba44201104fba4e71a527b6905, type: 3}
---- !u!114 &1971600063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5073524858430635213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66563b6a4e0c2b74b90057612789d8a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 0
-  TimedEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5073524858430635214}
-        m_TargetAssemblyTypeName: Leaderboard.GetLeaderboard, Assembly-CSharp
-        m_MethodName: LogScore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  repeats: 0
-  onEnable: 1
-  repeatOnEnable: 0
 --- !u!114 &1984167874 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9102331215081221634, guid: 791f45c104c9e4066ba02196321e2b89, type: 3}
@@ -13638,38 +13607,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 5073524858430635215}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5073524857729413547, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 5073524857798396587, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -13678,14 +13615,6 @@ PrefabInstance:
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1200012403}
-    - target: {fileID: 5073524858235764890, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: time
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5073524858565149058, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-      propertyPath: monoFloat
-      value: 
-      objectReference: {fileID: 113512738}
     - target: {fileID: 5073524858565149087, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -13697,53 +13626,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4158341284893301945, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
   m_PrefabInstance: {fileID: 5073524858430635212}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5073524858430635214 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4376714354023225075, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-  m_PrefabInstance: {fileID: 5073524858430635212}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017b6ce5787134a23a15d6571d10666a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &5073524858430635215 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5073524858565149057, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-  m_PrefabInstance: {fileID: 5073524858430635212}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5073524858430635216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5073524858430635215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66563b6a4e0c2b74b90057612789d8a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 0.1
-  TimedEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5073524858430635214}
-        m_TargetAssemblyTypeName: Leaderboard.GetLeaderboard, Assembly-CSharp
-        m_MethodName: ShowLeaderboard
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  repeats: 0
-  onEnable: 1
-  repeatOnEnable: 0
 --- !u!1001 &5086852412050046294
 PrefabInstance:
   m_ObjectHideFlags: 0

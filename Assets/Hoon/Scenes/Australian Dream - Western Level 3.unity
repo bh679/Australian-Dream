@@ -360,13 +360,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4376714354023225075, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: monoFloat
+      value: 
+      objectReference: {fileID: 874172043}
     - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_Name
       value: Leaderboard UI
       objectReference: {fileID: 0}
     - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_RootOrder
@@ -462,6 +466,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+--- !u!1 &433387061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4158341284893301945, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+  m_PrefabInstance: {fileID: 433387060}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &448810482 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 139176, guid: e8d31fb942e91c3478cedbdae2b384a0, type: 3}
@@ -1313,11 +1322,6 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4305546730589432997, guid: 911f6e56fe121694aa6f4afbc4f95eab, type: 3}
   m_PrefabInstance: {fileID: 3361908151616721324}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1403024072 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
-  m_PrefabInstance: {fileID: 433387060}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1437619186
 GameObject:
@@ -6680,7 +6684,7 @@ PrefabInstance:
     - target: {fileID: 8078671089239736487, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
-      objectReference: {fileID: 1403024072}
+      objectReference: {fileID: 433387061}
     - target: {fileID: 8078671089239736487, guid: 9ef01aea3563145ec9dd808e033d8ad9, type: 3}
       propertyPath: onTriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Target
       value: 

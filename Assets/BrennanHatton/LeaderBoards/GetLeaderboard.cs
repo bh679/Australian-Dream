@@ -48,7 +48,11 @@ namespace Leaderboard
 			score.score = (int)monoFloat.GetFloat();
 			score.timeStamp = System.DateTime.Now.Ticks;
 			newBPBool = (score.score > myBest.score);
+			
+			nameGenerator.transform.parent.parent.gameObject.SetActive(newBPBool);
+			UI.transform.parent.gameObject.SetActive(!newBPBool);
 		}
+		
 		
 		
 		
@@ -129,11 +133,11 @@ namespace Leaderboard
 							
 							nameGenerator.SetPlaceholderName(myBest.name);
 							
-							if(!newBPBool)
+							/*if(!newBPBool)
 							{
 								nameGenerator.transform.parent.parent.gameObject.SetActive(false);
 								UI.transform.parent.gameObject.SetActive(true);
-							}
+							}*/
 							return;
 						}
 					}

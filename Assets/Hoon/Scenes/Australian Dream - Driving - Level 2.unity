@@ -8448,13 +8448,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4376714354023225075, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+      propertyPath: monoFloat
+      value: 
+      objectReference: {fileID: 113512738}
     - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_Name
       value: Leaderboard UI
       objectReference: {fileID: 0}
     - target: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5073524857078635009, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
       propertyPath: m_RootOrder
@@ -8548,7 +8552,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
 --- !u!1 &781156992 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 5073524857078635008, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4158341284893301945, guid: 1bcbdfe17d3644e4593c0a25538d2be5, type: 3}
   m_PrefabInstance: {fileID: 781156991}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &784337121 stripped
