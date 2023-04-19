@@ -1866,6 +1866,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Cactus and trees '
       objectReference: {fileID: 0}
+    - target: {fileID: 6923663414203247741, guid: b69da29b195d0914eb3188da5f619e59, type: 3}
+      propertyPath: m_Size.x
+      value: 3.0300694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923663414203247741, guid: b69da29b195d0914eb3188da5f619e59, type: 3}
+      propertyPath: m_Center.x
+      value: -0.4092456
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923663414203247741, guid: b69da29b195d0914eb3188da5f619e59, type: 3}
+      propertyPath: m_Center.z
+      value: -0.47674656
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b69da29b195d0914eb3188da5f619e59, type: 3}
 --- !u!1 &863869602642044382
@@ -3687,6 +3699,26 @@ PrefabInstance:
     - target: {fileID: 3164685186542416583, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283997824534774483, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7205545
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283997824534774483, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Size.z
+      value: 0.9081942
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283997824534774483, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Center.x
+      value: -0.113565505
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283997824534774483, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Center.y
+      value: 1.5232271
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283997824534774483, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Center.z
+      value: -0.10820317
       objectReference: {fileID: 0}
     - target: {fileID: 3286729349761659092, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5799,6 +5831,26 @@ PrefabInstance:
     - target: {fileID: 7661203930848876299, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022412356172909340, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5834878
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022412356172909340, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Size.z
+      value: 2.4096746
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022412356172909340, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Center.x
+      value: -0.000004000962
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022412356172909340, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Center.y
+      value: 0.788411
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022412356172909340, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
+      propertyPath: m_Center.z
+      value: 0.18674892
       objectReference: {fileID: 0}
     - target: {fileID: 8111293540938829780, guid: 8702f76862563480ea51fd416fd0c866, type: 3}
       propertyPath: m_StaticEditorFlags
