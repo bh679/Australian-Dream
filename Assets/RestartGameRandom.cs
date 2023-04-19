@@ -5,9 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class RestartGameRandom : MonoBehaviour
 {
+	int nextLevelincrease = 0;
+	void Start()
+	{
+		nextLevelincrease = ((Random.Range(0,100)>60)?0:1);
+	}
+	
 	public void LoadLevelOrNext(int id){
+		
+		id += nextLevelincrease;
+		Debug.Log(id);
+		
 		//	SceneManager.LoadScene(id);
-		StartCoroutine(WaitLoadLevel(id + ((Random.Range(0,100)>50)?0:1)));
+		StartCoroutine(WaitLoadLevel(id));
 	}
 		
 	IEnumerator WaitLoadLevel(int x)
