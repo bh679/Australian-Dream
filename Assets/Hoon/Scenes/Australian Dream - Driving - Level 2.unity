@@ -23711,6 +23711,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b13c34d0eba443c89fa6d14d4723f99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5086852412050046300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965119958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66563b6a4e0c2b74b90057612789d8a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  TimedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5086852412050046295}
+        m_TargetAssemblyTypeName: BrennanHatton.UnityTools.RestartGame, BrennanHattonUnityTools
+        m_MethodName: UnloadLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  repeats: 0
+  onEnable: 1
+  repeatOnEnable: 0
 --- !u!4 &5609297447864470700
 Transform:
   m_ObjectHideFlags: 0
